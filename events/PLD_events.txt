@@ -1,0 +1,283 @@
+namespace = PLD_events
+
+#Allies in Londinium
+country_event = {
+	id = PLD_events.1
+	title = PLD_events.1.t
+	desc = PLD_events.1.d
+	picture = SPY_eventPicture
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes
+	
+	immediate = {
+		WSX = {
+			add_estate_loyalty = {
+				estate = estate_nobles
+				loyalty = -20
+			}
+		}
+	}
+	
+	option = { #Have our brothers and sisters in secrecy pave the way for us in their lands
+		name = PLD_events.1.a
+		
+		238 = {
+			add_core = ROOT
+		}
+		237 = {
+			add_core = ROOT
+		}
+		236 = {
+			add_core = ROOT
+		}
+	}
+	
+	option = { #Kidnap the Saxon King and plunge his realm back into the Dark Ages!
+		name = PLD_events.1.b
+		
+		WSX = {
+			country_event = { 
+				id = PLD_events.2
+				days = 30
+				random = 15
+			}
+		}
+	}
+	
+	option = { #"Tell your men to ready their arms. We've got a long fight ahead of us."
+		name = PLD_events.1.c
+		
+		238 = {
+			spawn_rebels = {
+				type = mithraism_rebels
+				size = 3
+				female = yes
+				win = yes
+				friend = PLD
+			}
+		}
+	}
+}
+
+#Mysterious Strangers
+country_event = {
+	id = PLD_events.2
+	title = PLD_events.2.t
+	desc = PLD_events.2.d
+	picture = RELIGION_eventPicture
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes
+	
+	immediate = {
+	}
+	
+	option = { #Wait! What if we ceded the Eastern lands to you, no strings attached!
+		name = PLD_events.2.a
+		FROM = {
+			country_event = { 
+				id = PLD_events.3
+				days = 30
+				random = 15
+			}
+		}
+	}
+	
+	option = { #Mercy! Mercy!!
+		name = PLD_events.2.b
+		
+		kill_heir = { allow_new_heir = no }
+		kill_ruler = yes
+		release = CTW
+		release = MNW
+		release = WHT
+		release = HWC
+		release = OXF
+		release = SSX
+		release = ESX
+		FROM = {
+			country_event = { 
+				id = PLD_events.4
+			}
+		}
+		hidden_effect = {
+			override_country_name = WSX_shattered
+			OXF = {
+				change_government = republic
+				add_government_reform = presidential_despot_reform
+			}
+			CTW = {
+				change_government = theocracy
+				add_government_reform = leading_clergy_reform
+			}
+		}
+	}
+}
+
+#West Saxon King Subcides
+country_event = {
+	id = PLD_events.3
+	title = PLD_events.3.t
+	desc = PLD_events.3.d
+	picture = SPY_eventPicture
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes
+	
+	immediate = {
+		add_prestige = 20
+	}
+	
+	option = { #Even better than we hoped!
+		name = PLD_events.3.a
+		238 = {
+			add_core = ROOT
+			remove_core = FROM
+			cede_province = ROOT
+		}
+		237 = {
+			add_core = ROOT
+			remove_core = FROM
+			cede_province = ROOT
+		}
+		236 = {
+			add_core = ROOT
+			remove_core = FROM
+			cede_province = ROOT
+		}
+	}
+	
+}
+
+#West Saxon Royal Family Slain
+country_event = {
+	id = PLD_events.4
+	title = PLD_events.4.t
+	desc = PLD_events.4.d
+	picture = SPY_eventPicture
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes
+	
+	immediate = {
+		add_prestige = 20
+	}
+	
+	option = { #Time to mop up the leftovers...
+		name = PLD_events.4.a
+		every_country = {
+			limit = { capital_scope = { region = british_isles_region } }
+			reverse_add_aggressive_expansion = {
+				who = ROOT
+				value = 25
+				apply_calc = yes
+			}
+		}
+	}
+	
+}
+
+#Welsh princes offer their fealty
+country_event = {
+	id = PLD_events.5
+	title = PLD_events.5.t
+	desc = PLD_events.5.d
+	picture = SPY_eventPicture
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes
+	
+	immediate = {
+	}
+	
+	option = { #Time to mop up the leftovers...
+		name = PLD_events.5.a
+		PLD = {
+			create_march = GWY
+			create_march = BRY
+			create_march = CRD
+			create_march = DEH
+		}
+	}
+	
+}
+
+country_event = { #Reconquest of Gallia from the Franks
+	id = PLD_events.6
+	title = PLD_events.6.t
+	desc = PLD_events.6.d
+	picture = SPY_eventPicture
+	
+	is_triggered_only = yes
+		
+	fire_only_once = yes
+	
+	immediate = {
+	}
+	
+	option = { #Restore the old province of Gallia
+		name = PLD_events.6.a
+		183 = {
+			add_building = villa
+			change_culture = gaulic
+		}
+		every_owned_province = {
+			limit = { region = france_region }
+			add_core = GAU
+		}
+		every_owned_province = {
+			limit = { OR = { culture = armorican culture = gallo culture = breton } }
+			change_culture = gaulic
+		}
+		PLD = {
+			release = GAU
+			create_subject = {
+				subject_type = imperial_province
+				subject = GAU
+			}
+		}
+		france_region = {
+			limit = {
+				NOT = { is_core = GAU }
+				NOT = { is_permanent_claim = GAU }
+			}
+			add_permanent_claim = GAU
+		}
+		italy_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+	}
+	
+	option = { #Restore the old province of Gallia
+		name = PLD_events.6.a
+		183 = {
+			add_building = villa
+			change_culture = gaulic
+		}
+		france_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		italy_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+	}
+	
+}

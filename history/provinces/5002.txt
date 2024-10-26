@@ -1,0 +1,14 @@
+add_core = Z1A
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+owner = Z1A
+base_tax = 4
+base_manpower = 6
+base_production = 4
+culture = al_misr_arabic
+religion = sunni
+controller = Z1A
+is_city = no

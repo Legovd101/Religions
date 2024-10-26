@@ -1,0 +1,5 @@
+discovered_by = central_african
+base_tax = 1
+base_manpower = 6
+base_production = 3
+is_city = no

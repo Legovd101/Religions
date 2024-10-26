@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = peasants_republic
+government_rank = 1
+technology_group = western
+religion = celtiberian_pagan
+capital = 1745
+primary_culture = cantabric

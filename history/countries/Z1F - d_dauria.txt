@@ -1,0 +1,58 @@
+government = tribal
+add_government_reform = siberian_tribe
+government_rank = 1
+technology_group = nomad_group
+religion = shiite
+primary_culture = buryat
+capital = 1056
+add_accepted_culture = evenk
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Galsan"
+		dynasty = "Barga"
+		adm = 5
+		dip = 3
+		mil = 5
+		birth_date = 1402.1.4
+		religion = shiite
+		culture = buryat
+	}
+	add_ruler_personality = silver_tongue_personality
+	add_ruler_personality = well_connected_personality
+	queen = {
+		name = "Soyolma"
+		dynasty = "al-Harrani"
+		adm = 5
+		dip = 4
+		mil = 3
+		country_of_origin = Z1F
+		birth_date = 1409.7.21
+		death_date = 1469.7.21
+		female = yes
+		religion = shiite
+		culture = buryat
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Geleg"
+		monarch_name = "Geleg"
+		dynasty = "Barga"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1430.3.29
+		death_date = 1495.3.29
+		female = yes
+		claim = 89
+		religion = shiite
+		culture = buryat
+	}
+	add_heir_personality = strict_personality
+	add_heir_personality = tactical_genius_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 38
+}

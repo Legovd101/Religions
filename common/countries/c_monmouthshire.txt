@@ -1,0 +1,19 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 210 165 60 }
+monarch_names = {
+	"Anowed #0" = -1
+	"Brochfael #0" = 0
+	"Cynfael #0" = 0
+	"Edylfred #0" = 0
+	"Erb #0" = 0
+	"Ffernfael #0" = 0
+	"Gwrfawr #0" = 0
+	"Gwrgant #0" = 0
+	"Gwyddno #0" = 0
+	"Io #0" = 0
+	"Ioan #0" = 0
+	"Meurig #1" = 10
+	"Sandde #0" = 0
+	"Tewdwr #0" = 0
+}

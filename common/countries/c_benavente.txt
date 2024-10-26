@@ -1,0 +1,22 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 195 115 20 }
+monarch_names = { 
+	"Aureliu #0" = 0
+	"Bosón #0" = 0
+	"Domingu #0" = 0
+	"Facundu #0" = 0
+	"Fruela #1" = 10
+	"Gonzalu #0" = 0
+	"Gotina #0" = -1
+	"Guiomar #0" = -1
+	"Gómez #0" = 0
+	"Marina #0" = -1
+	"Nuña #0" = -1
+	"Odoariu #0" = 0
+	"Olaya #0" = -1
+	"Osoriu #0" = 0
+	"Pedru #0" = 0
+	"Ramón #0" = 0
+	"Vela #0" = 0
+}

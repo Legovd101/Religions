@@ -1,0 +1,4 @@
+discovered_by = AMZ
+base_tax = 6
+base_manpower = 4
+base_production = 2

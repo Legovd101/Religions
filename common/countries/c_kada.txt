@@ -1,0 +1,22 @@
+ck2_converter_generated = yes
+graphical_culture = inuitgfx
+color = { 60 55 55 }
+monarch_names = {
+	"Adyana #0" = -1
+	"Aitana #0" = -1
+	"Arigaba #1" = 10
+	"Arugtai #0" = 0
+	"Batu #0" = 0
+	"Bodi #0" = 0
+	"Damba #0" = 0
+	"Darima #0" = -1
+	"Elbeg #0" = 0
+	"Erdeni #0" = -1
+	"Gombozab #0" = 0
+	"Jorightu #0" = 0
+	"Soyolma #0" = -1
+	"Tseden #0" = 0
+	"Tsydyp #0" = 0
+	"Tsyren #0" = 0
+	"Zhimba #0" = -1
+}

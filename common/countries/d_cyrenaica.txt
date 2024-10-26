@@ -1,0 +1,20 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 32 150 63 }
+monarch_names = { 
+	"Adiba #0" = -1
+	"Adjan #0" = -1
+	"Aghilas #0" = 0
+	"Fariza #0" = -1
+	"Farzad #0" = 0
+	"Fella #0" = 0
+	"Fer'r'udja #0" = -1
+	"Niptasan #0" = 0
+	"Pekako #0" = 0
+	"Qutaiba #0" = 0
+	"Tfit #0" = -1
+	"Tiljad #0" = 0
+	"Turghar #0" = 0
+	"Yeh'lem #0" = 0
+	"al-Athîr #0" = 0
+}

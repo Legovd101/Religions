@@ -1,0 +1,20 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 87 173 233 }
+monarch_names = {
+	"Aichata #0" = -1
+	"Halima #0" = -1
+	"Kambine #0" = 0
+	"Kukuray #0" = 0
+	"Labidiedo #0" = 0
+	"Namiss #0" = -1
+	"Nana #0" = -1
+	"Niakhaté #0" = 0
+	"Sandaki #0" = 0
+	"Sekkin #0" = 0
+	"Tekhaye #0" = -1
+	"Wati #0" = 0
+	"Yansané #0" = 0
+	"Youma #0" = -1
+	"Zenku #0" = 0
+}

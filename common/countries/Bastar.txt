@@ -1,0 +1,97 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 21 50 212 }
+revolutionary_colors = { 13 0 13 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	quantity_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+}
+historical_units = {
+	bhonsle_infantry
+	indian_archers
+	indian_arquebusier
+	indian_footsoldier
+	indian_rifle
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	reformed_mughal_musketeer
+	south_indian_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = {
+	"Bhramarbara #0" = 0
+	"Chandravarman #0" = 0
+	"Durjayabhanja #0" = 0
+	"Gandharavati #0" = -1
+	"Kalasa #0" = 0
+	"Kalyanavati #0" = -1
+	"Lakshmi #0" = -1
+	"Lakshmikaradevi #0" = -1
+	"Naladeva #0" = 0
+	"Saktivarman #0" = 0
+	"Sarabha #0" = 0
+	"Tustikara #0" = 0
+	"Vaaraharaja #0" = 0
+	"Vakulamahadevi #0" = -1
+	"Vankhaditya #1" = 10
+	"Vijnayavati #0" = -1
+}
+leader_names = {
+	"Bhanja"
+	"Deb"
+	"Deo"
+	"Gangabansi"
+	"Ghumsur"
+	"Janamuni"
+	"Mahapatra"
+	"Mangraj"
+	"Narendra"
+	"Pal"
+	"Parmar"
+	"Patnaik"
+	"Pusapati"
+	"Rawat"
+	"Samant"
+	"Singh"
+	"Vidyadhar"
+}
+ship_names = {
+	"Agni"
+	"Bhim"
+	"Brahma"
+	"Devi"
+	"Durga"
+	"Ganesh"
+	"Gayatri"
+	"Hanumaun"
+	"Indra"
+	"Jalsena"
+	"Kala Jahazi"
+	"Kali"
+	"Krishna"
+	"Kubera"
+	"Lakshmi"
+	"Lal Jahazi"
+	"Nausena"
+	"Nav ka Yudh"
+	"Nila Jahazi"
+	"Parvati"
+	"Radha"
+	"Ratri"
+	"Sagar"
+	"Sarasvati"
+	"Shiva"
+	"Sita"
+	"Soma"
+	"Surya"
+	"Varuna"
+	"Vayu"
+	"Vishnu"
+	"Yama"
+}

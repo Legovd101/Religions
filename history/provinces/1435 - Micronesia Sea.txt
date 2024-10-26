@@ -1,0 +1,5 @@
+discovered_by = chinese
+discovered_by = polynesian_tech
+base_tax = 4
+base_manpower = 5
+base_production = 5

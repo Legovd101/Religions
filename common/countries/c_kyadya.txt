@@ -1,0 +1,18 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 76 125 20 }
+monarch_names = {
+	"Chado #1" = 10
+	"Dagbako #0" = 0
+	"Gandzo #0" = -1
+	"Kolo #0" = 0
+	"Kudu #0" = 0
+	"Mawo #0" = -1
+	"Sagi #0" = 0
+	"Tsoede #0" = 0
+	"Tswankwa #0" = 0
+	"Tswasha #0" = -1
+	"Turai #0" = -1
+	"Woye #0" = 0
+	"Yabaya #0" = -1
+}

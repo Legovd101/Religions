@@ -1,0 +1,14 @@
+owner = LXA
+controller = LXA
+capital = "Attapeu"
+is_city = yes
+culture = lao
+religion = animism
+trade_goods = ivory
+base_tax = 4
+base_production = 1
+base_manpower = 4
+add_core = CHK
+add_core = LXA
+discovered_by = chinese
+discovered_by = indian

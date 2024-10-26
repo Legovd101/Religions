@@ -1,0 +1,7 @@
+religion = iberian_pagan
+capital = 4976
+technology_group = western
+primary_culture = basque
+government = monarchy
+add_government_reform = elective_monarchy_reform
+government_rank = 1

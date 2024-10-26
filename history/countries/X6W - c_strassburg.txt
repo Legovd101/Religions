@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = english_monarchy
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = swabian
+capital = 75
+fixed_capital = 75
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11 = { 
+	monarch = { 
+		name = "Eberhard"
+		dynasty = "Etichonen"
+		adm = 3
+		dip = 3
+		mil = 4
+		birth_date = 1392.1.1
+		religion = karaite_faith
+		culture = swabian
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = tactical_genius_personality
+	heir = { 
+		name = "Liutfried"
+		monarch_name = "Liutfried"
+		dynasty = "Etichonen"
+		adm = 6
+		dip = 4
+		mil = 5
+		birth_date = 1416.1.1
+		death_date = 1481.1.1
+		claim = 89
+		religion = masmudi
+		culture = swabian
+	}
+	add_heir_personality = intricate_web_weaver_personality
+	add_heir_personality = secretive_personality
+}
+1444.11.11 = { 
+	add_prestige = 47
+	add_treasury = 41
+}

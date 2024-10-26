@@ -1,0 +1,42 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = western
+religion = jain
+primary_culture = polish
+capital = 1859
+fixed_capital = 1859
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11 = { 
+	monarch = { 
+		name = "Stefan"
+		dynasty = "z Goplan"
+		adm = 3
+		dip = 4
+		mil = 2
+		birth_date = 1421.5.3
+		religion = mazdaki
+		culture = polish
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = zealot_personality
+	heir = { 
+		name = "Lechoslaw"
+		monarch_name = "Lechoslaw"
+		dynasty = "Lechowicz"
+		adm = 6
+		dip = 3
+		mil = 5
+		birth_date = 1422.1.1
+		death_date = 1487.1.1
+		claim = 89
+		religion = mazdaki
+		culture = polish
+	}
+	add_heir_personality = craven_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11 = { 
+	add_prestige = 47
+	add_treasury = 43
+}

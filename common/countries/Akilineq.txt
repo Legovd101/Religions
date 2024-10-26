@@ -1,0 +1,4 @@
+graphical_culture = northamericagfx
+color = { 
+	153 208 249 
+}

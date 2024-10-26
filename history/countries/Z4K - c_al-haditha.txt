@@ -1,0 +1,14 @@
+government = monarchy
+add_government_reform = english_monarchy
+government_rank = 1
+technology_group = muslim
+religion = qarmatian
+primary_culture = kurdish
+capital = 406
+fixed_capital = 406
+add_accepted_culture = al_iraqiya_arabic
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 45
+}

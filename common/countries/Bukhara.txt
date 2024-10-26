@@ -1,0 +1,51 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 255 134 0 }
+revolutionary_colors = { 8 10 8 }
+historical_idea_groups = { 
+	religious_ideas
+	trade_ideas
+	quantity_ideas
+	offensive_ideas
+	expansion_ideas
+	economic_ideas
+	defensive_ideas
+	administrative_ideas
+}
+historical_units = { 
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_cavalry_archers
+	muslim_dragoon
+	muslim_mass_infantry
+	persian_footsoldier
+	persian_rifle
+	persian_shamshir
+	qizilbash_cavalry_unit
+	shaybani
+	tofongchis_musketeer
+	topchis_artillery
+}
+monarch_names = { 
+	"Atash #0" = 0
+	"Ghawtus #0" = 0
+	"Golshan #0" = -1
+	"Ibrahim #1" = 10
+	"Isma'il #1" = 10
+	"Karzh #0" = 0
+	"Khun #0" = 0
+	"Rostam #0" = 0
+	"Shahram #0" = 0
+	"Shahzadah #0" = -1
+	"Shirin #0" = -1
+	"Sina #0" = 0
+	"Tarkhun #0" = 0
+}
+leader_names = { 
+	"Altan Vachir" "Arigh Gan" "Bayan Checheg" "Boke Arslan" "Bora Chinua" "Chagan Erdene" "Mongke Bayar" "Mongke Enq" "Mongke Nasan" "Qara Temur"
+	"Shria Gal" "Suren Unegen" "Yeke Burilgi" 
+}
+ship_names = { 
+	"Amudarja" "Bajsun" "Chiva" "Chudzand" "Cimkent" "Gizduvan" "Gulistan" "Guzar" "Jangijul" "Karakul"
+	"Karsi" "Kerki" "Mukry" "Syrdarja" 
+}

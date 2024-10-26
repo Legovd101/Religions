@@ -1,0 +1,9 @@
+culture = swabian
+religion = catholic
+is_city = no
+base_tax = 5
+base_manpower = 5
+base_production = 3
+add_core = KOL
+owner = KOL
+controller = KOL

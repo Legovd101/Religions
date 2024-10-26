@@ -1,0 +1,42 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = muslim
+religion = animism
+primary_culture = berber
+capital = 1127
+fixed_capital = 1127
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Awzal"
+		dynasty = "Massufa"
+		adm = 2
+		dip = 2
+		mil = 1
+		birth_date = 1423.4.4
+		religion = animism
+		culture = berber
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = tactical_genius_personality
+	heir = {
+		name = "Yabdas"
+		monarch_name = "Yabdas"
+		dynasty = "Massufa"
+		adm = 0
+		dip = 0
+		mil = 0
+		birth_date = 1443.4.4
+		death_date = 1508.4.4
+		claim = 89
+		religion = animism
+		culture = berber
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 37
+}

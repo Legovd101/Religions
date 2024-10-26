@@ -1,0 +1,7 @@
+discovered_by = north_american
+culture = welsh
+is_city = no
+base_tax = 3
+base_manpower = 3
+base_production = 1
+religion = druidism

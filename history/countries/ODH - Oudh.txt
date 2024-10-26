@@ -1,0 +1,55 @@
+government = monarchy
+add_government_reform = rajput_kingdom
+government_rank = 2
+technology_group = indian
+religion = jain
+primary_culture = vindhyan
+capital = 2059
+1444.11.11 = { 
+	monarch = { 
+		name = "Bhoja"
+		dynasty = "Pratihara"
+		adm = 1
+		dip = 2
+		mil = 2
+		birth_date = 1393.4.13
+		religion = finnish_pagan
+		culture = vindhyan
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = secretive_personality
+	queen = { 
+		name = "Candrabhattarika"
+		dynasty = "al-Harrani"
+		adm = 3
+		dip = 5
+		mil = 4
+		country_of_origin = ODH
+		birth_date = 1397.3.8
+		death_date = 1457.3.8
+		female = yes
+		religion = hinduism
+		culture = rajput
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = { 
+		name = "Mahendrapala"
+		monarch_name = "Mahendrapala"
+		dynasty = "Pratihara"
+		adm = 3
+		dip = 5
+		mil = 4
+		birth_date = 1418.8.13
+		death_date = 1483.8.13
+		claim = 89
+		religion = finnish_pagan
+		culture = avadhi
+	}
+	add_heir_personality = midas_touched_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11 = { 
+	add_prestige = 47
+	add_treasury = 57
+}

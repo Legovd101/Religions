@@ -1,0 +1,16 @@
+owner = CSU
+controller = CSU
+capital = "Cuzco"
+is_city = yes
+culture = inca
+religion = inti
+trade_goods = gold
+base_tax = 4
+base_production = 4
+base_manpower = 5
+extra_cost = 8
+center_of_trade = 1
+add_core = CSU
+discovered_by = andean
+discovered_by = south_american
+fort_15th = yes

@@ -1,0 +1,5 @@
+discovered_by = FRT
+discovered_by = MND
+base_tax = 5
+base_manpower = 3
+base_production = 3

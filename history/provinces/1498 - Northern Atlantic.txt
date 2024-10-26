@@ -1,0 +1,7 @@
+discovered_by = AKL
+discovered_by = FRT
+discovered_by = MND
+discovered_by = TEM
+base_tax = 2
+base_manpower = 1
+base_production = 3

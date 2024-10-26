@@ -1,0 +1,806 @@
+PLD_Conquest = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = {
+		tag = PLD
+	}
+
+	bulls_of_mithras = {
+		icon = hispaniae
+		position = 1
+		required_missions = {  }
+		provinces_to_highlight = {
+			owned_by = ROOT
+			NOT = { development = 6 }
+		}
+		trigger = {
+			all_owned_province = { development = 6 }
+			num_of_cavalry = 4
+		}
+		effect = {
+			add_country_modifier = {
+				name = bovine_cavalry
+				duration = -1
+			}
+			capital_scope = {
+				hussars_cavalry = ROOT
+			}
+			capital_scope = {
+				hussars_cavalry = ROOT
+			}
+			1860 = {
+				add_permanent_claim = ROOT
+			}
+			yorkshire_area = {
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	meutonian_coast = {
+		icon = danubian_power
+		position = 2
+		required_missions = { bulls_of_mithras }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 1860
+				area = yorkshire_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			1860 = {
+				owned_by = ROOT
+			}
+			yorkshire_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = legacy_of_boudicca
+				duration = -1
+			}
+		}
+	}
+	lincolnia_to_londinium = {
+		icon = mission_rb_increase_our_reach
+		position = 3
+		required_missions = { meutonian_coast }
+		provinces_to_highlight = {
+			OR = {
+				area = home_counties_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			home_counties_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			wessex_area = { add_permanent_claim = ROOT }
+			cornwall_area = { add_permanent_claim = ROOT }
+			west_midlands_area = { add_permanent_claim = ROOT }
+			cornwall_area = { add_permanent_claim = ROOT }
+			add_casus_belli = {
+				target = CRN
+				type = cb_vassalize_mission
+				months = 240
+			}
+		}
+	}
+	britannia_superior = {
+		icon = mission_rb_into_england
+		position = 4
+		required_missions = { lincolnia_to_londinium }
+		provinces_to_highlight = {
+			OR = {
+				area = cornwall_area
+				area = wessex_area
+				area = west_midlands_area
+			}
+			NOT = { country_or_subject_holds = ROOT }
+		}
+		trigger = {
+			cornwall_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			wessex_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			west_midlands_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					NOT = {
+						any_country = {
+							capital_scope = { area = wales_area }
+							army_size = ROOT
+						}
+					}
+				}
+				country_event = {
+					id = PLD_events.5
+				}
+			}
+			wales_area = { add_permanent_claim = ROOT }
+			east_midlands_area = { add_permanent_claim = ROOT }
+			scottish_marches_area = { add_permanent_claim = ROOT }
+			lowlands_area = { add_permanent_claim = ROOT }
+			leinster_area = { add_permanent_claim = ROOT }
+			override_country_name = PLD_half
+		}
+	}
+	britannia_borealis = {
+		icon = mission_rb_scottish_the_darien_scheme
+		position = 5
+		required_missions = { britannia_superior }
+		provinces_to_highlight = {
+			OR = {
+				area = scottish_marches_area
+				area = east_midlands_area
+				area = lowlands_area
+			}
+			NOT = { country_or_subject_holds = ROOT }
+		}
+		trigger = {
+			lowlands_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			scottish_marches_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			east_midlands_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+		}
+		effect = {
+			247 = {
+				change_culture = caledonian
+				add_great_project = {
+					type = hadrians_wall_west
+					instant = no
+				}
+			}
+			246 = {
+				change_culture = caledonian
+				add_great_project = {
+					type = hadrians_wall_east
+					instant = no
+				}
+			}
+			248 = {
+				change_culture = caledonian
+				add_great_project = {
+					type = antonine_wall_east
+					instant = no
+				}
+			}
+			249 = {
+				change_culture = ROOT
+				add_great_project = {
+					type = antonine_wall_west
+					instant = no
+				}
+			}
+		}
+	}
+	caledonian_borderlands = {
+		icon = mission_rb_conquer_scotland
+		position = 6
+		required_missions = { britannia_borealis }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 246
+				province_id = 247
+				province_id = 248
+				province_id = 249
+			}
+			NOT = { country_or_subject_holds = ROOT }
+		}
+		trigger = {
+			249 = {
+			    has_great_project = {
+			        type =antonine_wall_west
+			        tier = 1
+			    }
+			}
+			248 = {
+			    has_great_project = {
+			        type = antonine_wall_east
+			        tier = 1
+			    }
+			}
+			247 = {
+			    has_great_project = {
+			        type = hadrians_wall_west
+			        tier = 1
+			    }
+			}
+			246 = {
+			    has_great_project = {
+			        type = hadrians_wall_east
+			        tier = 1
+			    }
+			}
+		}
+		effect = {
+			add_permanent_claim = highlands_area
+			add_permanent_claim = kingdom_of_the_isles_area
+			add_permanent_claim = subarctic_islands_area
+			override_country_name = PLD_brit
+			every_subject_country = {
+				ROOT = {
+					inherit = PREV
+				}
+			}
+			every_owned_province = {
+				if = {
+					limit = { culture = welsh }
+					change_culture = cambrian
+				}
+				if = {
+					limit = { culture = cornish }
+					change_culture = dumnonian
+				}
+				if = {
+					limit = { culture_group = anglo_saxon_g OR = { area = wessex_area area = home_counties_area area = east_anglia_area area = west_midlands_area } }
+					change_culture = ROOT
+				}
+			}
+		}
+	}
+	rhuman_reclaimation = {
+		icon = a_place_among_the_great_powers
+		position = 8
+		required_missions = { caledonian_borderlands gallian_restoration }
+		provinces_to_highlight = {
+			OR = {
+				region = italy_region
+				region = france_region
+			}
+			NOT = { country_or_subject_holds = ROOT }
+		}
+		trigger = {
+			france_region = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			italy_region = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+		}
+		effect = {
+			change_tag = RHU
+			restore_country_name = yes
+			change_government = monarchy
+			add_government_reform = roman_empire_reform
+			aragon_area = {
+				add_permanent_claim = ROOT
+			}
+			valencia_area = {
+				add_permanent_claim = ROOT
+			}
+			catalonia_area = {
+				add_permanent_claim = ROOT
+			}
+			baleares_area = {
+				add_permanent_claim = ROOT
+			}
+			basque_country = {
+				add_permanent_claim = ROOT
+			}
+			carinthia_area = {
+				add_permanent_claim = ROOT
+			}
+			croatia_area = {
+				add_permanent_claim = ROOT
+			}
+			dalmatia_area = {
+				add_permanent_claim = ROOT
+			}
+			bosnia_area = {
+				add_permanent_claim = ROOT
+			}
+			slavonia_area = {
+				add_permanent_claim = ROOT
+			}
+			lazio_area = {
+				change_culture = roman
+				change_religion = ROOT
+			}
+			every_owned_province = {
+				limit = {
+					NOT = { culture_group = roman_group }
+					development = 12
+				}
+				random = { 
+					chance = 25 
+					change_culture = ROOT
+				}
+				random = { 
+					chance = 25 
+					change_religion = ROOT
+				}
+			}
+		}
+	}
+}
+
+PLD_army = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = PLD
+	}
+
+	organizing_forces = {
+		icon = mission_rb_unite_the_clans
+		position = 2
+		required_missions = { bulls_of_mithras }
+		trigger = {
+			army_professionalism = 0.10
+			num_of_generals = 2
+		}
+		effect = {
+			add_devotion = 10
+			capital_scope = {
+				add_building = barracks
+				add_base_manpower = 2
+			}
+		}
+	}
+	pridainian_fleet = {
+		icon = mission_establish_high_seas_navy
+		position = 3
+		required_missions = { organizing_forces }
+		provinces_to_highlight = {
+			has_port = yes
+			owned_by = ROOT
+			NOT = { has_construction = navy }
+		}
+		trigger = {
+			navy_size = 35
+			treasury = 100
+		}
+		effect = {
+			add_country_modifier = {
+				name = pridainy_rules_waves
+				duration = 7300
+			}
+			leinster_area = { add_permanent_claim = ROOT }
+		}
+	}
+	invasion_of_hibernia = {
+		icon = mission_invade_island
+		position = 4
+		required_missions = { pridainian_fleet }
+		provinces_to_highlight = {
+			area = leinster_area
+			NOT = { country_or_subject_holds = ROOT }
+		}
+		trigger = {
+			leinster_area = {
+				type = all
+				country_or_subject_holds = ROOT
+				is_core = ROOT
+			}
+		}
+		effect = {
+			connacht_area = { add_permanent_claim = ROOT }
+			munster_area = { add_permanent_claim = ROOT }
+			ulster_area = { add_permanent_claim = ROOT }
+			connacht_area = { add_permanent_claim = ROOT }
+		}
+	}
+	restoration_of_the_coloniae = {
+		icon = mission_build_up_to_force_limit
+		position = 6
+		required_missions = { invasion_of_hibernia sinus_armoricus }
+		provinces_to_highlight = {
+			OR = {
+				area = leinster_area
+				area = ulster_area
+				area = connacht_area
+				area = munster_area
+			}
+			NOT = { country_or_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				OR = {
+					area = ulster_area
+					area = leinster_area
+					area = connacht_area
+					area = munster_area
+				}
+			}
+		}
+		effect = {
+			373 = { add_building = villa change_culture = hibernian }
+		}
+	}
+}
+
+PLD_espionage = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = PLD
+	}
+
+	allies_in_londinium = {
+		icon = mission_luther_theses
+		position = 3
+		required_missions = { meutonian_coast }
+		provinces_to_highlight = {
+			owned_by = WSX
+			is_capital = yes
+		}
+		trigger = {
+			has_spy_network_in = {
+				who = WSX
+				value = 50
+			}
+		}
+		effect = {
+			country_event = {
+				id = PLD_events.1
+			}
+		}
+	}
+	agents_of_argent = {
+		icon = mission_eric_the_pirate
+		position = 4
+		required_missions = { lincolnia_to_londinium allies_in_londinium }
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					owned_by = FLA
+					is_capital = yes
+				}
+				AND = {
+					owned_by = NRM
+					is_capital = yes
+				}
+			}
+		}
+		trigger = {
+			has_spy_network_in = {
+				who = NRM
+				value = 50
+			}
+			has_spy_network_in = {
+				who = FLA
+				value = 50
+			}
+			treasury = 200
+		}
+		effect = {
+			add_treasury = -150
+			picardy_area = { add_permanent_claim = ROOT }
+			normandy_area = { add_permanent_claim = ROOT }
+			domnonia_area = { add_permanent_claim = ROOT }
+			flanders_area = { add_permanent_claim = ROOT }
+		}
+	}
+}
+
+PLD_gaul = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = PLD
+	}
+
+	sinus_armoricus = {
+		icon = mission_unite_home_region
+		position = 5
+		required_missions = { agents_of_argent }
+		provinces_to_highlight = {
+			OR = {
+				area = picardy_area
+				area = domnonia_area
+				area = normandy_area
+				area = picardy_area
+				area = flanders_area
+			}
+			NOT = { country_or_subject_holds = ROOT }
+		}
+		trigger = {
+			picardy_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			normandy_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			domnonia_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			flanders_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+		}
+		effect = {
+			broerec_area = { add_permanent_claim = ROOT }
+			ile_de_france_area = { add_permanent_claim = ROOT }
+			loire_area = { add_permanent_claim = ROOT }
+			orleans_area = { add_permanent_claim = ROOT }
+			poitou_area = { add_permanent_claim = ROOT }
+			massif_central_area = { add_permanent_claim = ROOT }
+		}
+	}
+	gallian_restoration = {
+		icon = mission_rb_conquer_brittany
+		position = 7
+		required_missions = { restoration_of_the_coloniae sinus_armoricus }
+		provinces_to_highlight = {
+			OR = {
+				area = ile_de_france_area
+				area = massif_central_area
+				area = poitou_area
+				area = orleans_area
+				area = broerec_area
+			}
+			NOT = { country_or_subject_holds = ROOT }
+		}
+		trigger = {
+			ile_de_france_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			massif_central_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			poitou_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			orleans_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			broerec_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+		}
+		effect = {
+			#country_event = {
+				#id = PLD_events.6
+			#}
+			every_owned_province = {
+				limit = { OR = { culture = armorican culture = gallo culture = breton } }
+				change_culture = gaulic
+			}
+			183 = {
+				add_building = villa
+				change_culture = gaulic
+			}
+			france_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			italy_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}
+
+PLD_ultimaria = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = PLD
+	}
+
+	follow_the_escimaei = {
+		icon = mission_rb_conquer_the_isles
+		position = 7
+		required_missions = { caledonian_borderlands restoration_of_the_coloniae }
+		provinces_to_highlight = {
+			OR = {
+				area = subarctic_islands_area
+				area = kingdom_of_the_isles_area
+				area = highlands_area
+			}
+			NOT = { country_or_subject_holds = ROOT }
+		}
+		trigger = {
+			highlands_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			kingdom_of_the_isles_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			subarctic_islands_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_permanent_claim = iceland_area
+			add_permanent_claim = greenland_area
+			greenland_area = {
+				discover_country = ROOT
+			}
+			denmark_strait_area = {
+				discover_country = ROOT
+			}
+			1804 = {
+				discover_country = ROOT
+			}
+		}
+	}
+	provincia_ultraborea = {
+		icon = mission_rb_settle_the_north
+		position = 8
+		required_missions = { follow_the_escimaei }
+		provinces_to_highlight = {
+			OR = {
+				area = greenland
+				area = iceland
+			}
+			NOT = { country_or_subject_holds = ROOT }
+		}
+		trigger = {
+			greenland_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			iceland_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			subarctic_islands_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+		}
+		effect = { }
+	}
+}
+
+PLD_western_rome = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = {
+		tag = PLD
+	}
+
+	provincia_tarraconesis = {
+		icon = french_empire
+		position = 9
+		required_missions = { restoration_of_the_coloniae rhuman_reclaimation }
+		provinces_to_highlight = {
+			OR = {
+				area = aragon_area
+				area = catalonia_area
+				area = basque_country
+				area = valencia_area
+			        area = baleares_area
+			}
+			NOT = { country_or_subject_holds = ROOT }
+		}
+		trigger = {
+			valencia_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			catalonia_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			basque_country= {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			baleares_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			aragon_area = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+		}
+		effect = { }
+	}
+	holy_toledan_war = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { provincia_tarraconesis }
+		trigger = { }
+		effect = { }
+	}
+}
+
+PLD_east_rome = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = {
+		tag = PLD
+	}
+
+	illyrian_incursion = {
+		icon = mission_balkan_conquest
+		position = 9
+		required_missions = { rhuman_reclaimation }
+		provinces_to_highlight = {
+			OR = {
+				area = bosnia_area
+				area = croatia_area
+				area = slavonia_country
+				area = dalmatia_area
+			        area = carinthia
+			}
+			NOT = { country_or_subject_holds = ROOT }
+		}
+		trigger = {
+			slavonia_area  = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			croatia_area  = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			dalmatia_area  = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			bosnia_area  = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+			carinthia_area  = {
+				type = all
+				country_or_subject_holds = ROOT
+			}
+		}
+		effect = { }
+	}
+	greater_graecia = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { illyrian_incursion }
+		trigger = { }
+		effect = { }
+	}
+}
+

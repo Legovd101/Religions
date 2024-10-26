@@ -1,0 +1,13 @@
+owner = CRA
+controller = CRA
+capital = "Choquechaca"
+is_city = yes
+culture = aimara
+religion = inti
+trade_goods = gold
+base_tax = 3
+base_production = 4
+base_manpower = 5
+add_core = CRA
+discovered_by = andean
+discovered_by = south_american

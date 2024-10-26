@@ -1,0 +1,55 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 50 37 125 }
+revolutionary_colors = { 13 16 13 }
+historical_idea_groups = { 
+	quantity_ideas
+	offensive_ideas
+	trade_ideas
+	defensive_ideas
+	diplomatic_ideas
+	spy_ideas
+	economic_ideas
+	innovativeness_ideas
+}
+historical_units = { 
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	chinese_dragoon
+	chinese_footsoldier
+	chinese_longspear
+	chinese_steppe
+	eastern_bow
+	han_banner
+	manchu_banner
+	reformed_asian_cavalry
+	reformed_asian_musketeer
+	reformed_manchu_rifle
+}
+monarch_names = { 
+	"Böntsun #0" = 0
+	"Chöphel #0" = -1
+	"Dedan #0" = 0
+	"Gekhö #1" = 10
+	"Getong #0" = 0
+	"Kurukulla #0" = -1
+	"Martang #0" = 0
+	"Milwo #0" = 0
+	"Samlo #0" = 0
+	"Sey #0" = 0
+	"Shebu #0" = 0
+	"Shenpa #0" = 0
+	"Tönpa #0" = 0
+	"Yidring #0" = 0
+	"Yuyi #0" = -1
+	"Ökar #0" = 0
+}
+leader_names = { 
+	"Gampo" "Phuntsok" "Sonam" "Sregs" "Srong" "Tashi" "Thekchen" "Tsewang" "Wangdak" "Wangdue"
+}
+ship_names = { 
+	"Barkam" "Dartsendo" "Gartse" "Gyantse" "Lhasa" "Lhotse" "Makalu" "Nagqu" "Nedong" "Nyingchi"
+	"Pelbar" "Qamdo" "Sakya" "Shigatse" "Tinggri" 
+}

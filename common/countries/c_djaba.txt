@@ -1,0 +1,18 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 116 205 117 }
+monarch_names = {
+	"Abafingi #0" = 0
+	"Abanfi #0" = -1
+	"Dangana #0" = -1
+	"Gbongboroko #0" = 0
+	"Kolo #0" = 0
+	"Kpade #0" = 0
+	"Kpangbah #1" = 10
+	"Kusogi #0" = 0
+	"Nafissa #0" = -1
+	"Ndagi #0" = -1
+	"Nnandagi #0" = -1
+	"Ryatwa #0" = -1
+	"Zumagi #0" = -1
+}

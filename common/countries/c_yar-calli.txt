@@ -1,0 +1,20 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 66 36 87 }
+monarch_names = { 
+	"Almish #0" = 0
+	"Belkermak #0" = 0
+	"Esin #0" = -1
+	"Kano #0" = 0
+	"Khinialon #1" = 10
+	"Kotrag #0" = 0
+	"Kurt #0" = 0
+	"Kuvrat #0" = 0
+	"Labertam #0" = 0
+	"Lärkka #0" = -1
+	"Rassate #0" = 0
+	"Salchak #0" = 0
+	"Savintik #0" = -1
+	"Tokhtaman #0" = 0
+	"Vinekh #0" = 0
+}

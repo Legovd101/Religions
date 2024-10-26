@@ -1,0 +1,17 @@
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = ottoman
+base_tax = 3
+base_manpower = 5
+base_production = 4
+culture = portugese
+religion = sunni
+is_city = no
+add_core = Y8Y
+owner = Y8Y
+controller = Y8Y
+trade_goods = paper
+latent_trade_goods = { 
+	coal 
+}

@@ -1,0 +1,4 @@
+discovered_by = TEM
+base_tax = 1
+base_manpower = 4
+base_production = 3

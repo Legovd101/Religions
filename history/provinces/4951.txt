@@ -1,0 +1,14 @@
+add_core = POV
+discovered_by = western
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = ottoman
+owner = POV
+base_tax = 4
+base_manpower = 6
+base_production = 4
+culture = poveira
+trade_goods = fish
+religion = arianism
+controller = POV
+is_city = no

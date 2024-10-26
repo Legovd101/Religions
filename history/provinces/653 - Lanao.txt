@@ -1,0 +1,12 @@
+owner = MGD
+controller = MGD
+capital = "Marawi"
+is_city = yes
+religion = animism
+trade_goods = spices
+base_tax = 3
+base_production = 6
+base_manpower = 6
+add_core = LNO
+add_core = MGD
+discovered_by = chinese

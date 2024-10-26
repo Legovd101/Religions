@@ -1,0 +1,5 @@
+discovered_by = CRE
+discovered_by = north_american
+base_tax = 1
+base_manpower = 5
+base_production = 6

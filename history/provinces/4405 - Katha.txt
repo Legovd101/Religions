@@ -1,0 +1,13 @@
+owner = MYA
+controller = MYA
+capital = "Katha"
+is_city = yes
+culture = shan
+religion = buddhism
+trade_goods = tea
+base_tax = 5
+base_production = 1
+base_manpower = 5
+add_core = MYA
+discovered_by = chinese
+discovered_by = indian

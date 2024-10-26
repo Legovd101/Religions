@@ -1,0 +1,17 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 220 99 85 }
+monarch_names = { 
+	"Chinnambike #0" = -1
+	"Gangabai #0" = -1
+	"Lasthiyavva #0" = -1
+	"Merada #1" = 10
+	"Narasanayaka #0" = 0
+	"Narayanrao #0" = 0
+	"Pratapsinh #0" = 0
+	"Radhabai #0" = -1
+	"Rajasbai #0" = -1
+	"Sagunabai #0" = -1
+	"Vappuvanna #0" = 0
+	"Viraballala #0" = 0
+}

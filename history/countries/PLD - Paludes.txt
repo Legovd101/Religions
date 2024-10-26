@@ -1,0 +1,7 @@
+government = theocracy
+add_government_reform = holy_horde_reform
+government_rank = 1
+technology_group = western
+religion = mithraism
+capital = 243
+primary_culture = britannian

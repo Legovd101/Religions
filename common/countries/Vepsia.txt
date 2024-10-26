@@ -1,0 +1,29 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 147 214 90 }
+revolutionary_colors = { 11 8 15 }
+historical_idea_groups = {
+	trade_ideas
+	economic_ideas
+	quality_ideas
+	spy_ideas
+	defensive_ideas
+	administrative_ideas
+	diplomatic_ideas
+	quantity_ideas
+}
+monarch_names = {
+	"Anastasia #0" = -1
+	"Feodor #0" = 0
+	"Helgi #0" = 0
+	"Ingrid #0" = -1
+	"Iofurfríðr #0" = -1
+	"Karhu #1" = 10
+	"Mitfora #0" = 0
+	"Ontto #0" = 0
+	"Pereyaslava #0" = -1
+	"Rogvolod #0" = 0
+	"Rurik #1" = 10
+	"Starkaðr #0" = 0
+	"Ævarr #0" = 0
+}

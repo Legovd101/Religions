@@ -1,0 +1,5 @@
+discovered_by = MCA
+discovered_by = south_american
+base_tax = 4
+base_manpower = 2
+base_production = 3

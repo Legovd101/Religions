@@ -1,0 +1,42 @@
+government = tribal
+add_government_reform = siberian_tribe
+government_rank = 1
+technology_group = nomad_group
+religion = karaite_faith
+primary_culture = uzbehk
+capital = 2434
+fixed_capital = 2434
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Ayasun"
+		dynasty = "Koktayklan"
+		adm = 4
+		dip = 3
+		mil = 3
+		birth_date = 1419.9.16
+		religion = karaite_faith
+		culture = uzbehk
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	heir = {
+		name = "Ayten"
+		monarch_name = "Ayten"
+		dynasty = "Koktayklan"
+		adm = 4
+		dip = 5
+		mil = 4
+		birth_date = 1421.2.13
+		death_date = 1486.2.13
+		claim = 89
+		religion = karaite_faith
+		culture = uzbehk
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 38
+}

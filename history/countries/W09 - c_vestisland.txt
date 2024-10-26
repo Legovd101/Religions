@@ -1,0 +1,43 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = icelandic
+capital = 370
+fixed_capital = 370
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Auðr"
+		dynasty = "Flatnefr"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1410.1.1
+		female = yes
+		religion = catholic
+		culture = icelandic
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = zealot_personality
+	heir = {
+		name = "Þorsteinn"
+		monarch_name = "Þorsteinn"
+		dynasty = "Flatnefr"
+		adm = 6
+		dip = 3
+		mil = 5
+		birth_date = 1427.1.1
+		death_date = 1492.1.1
+		claim = 89
+		religion = catholic
+		culture = norse
+	}
+	add_heir_personality = silver_tongue_personality
+	add_heir_personality = well_connected_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 39
+}

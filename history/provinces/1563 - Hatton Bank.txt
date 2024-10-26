@@ -1,0 +1,6 @@
+discovered_by = western
+discovered_by = FRT
+discovered_by = MND
+base_tax = 1
+base_manpower = 5
+base_production = 6

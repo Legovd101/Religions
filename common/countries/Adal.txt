@@ -1,0 +1,48 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 145 70 130 }
+revolutionary_colors = { 0 5 0 }
+historical_idea_groups = { 
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	religious_ideas
+	spy_ideas
+	economic_ideas
+	quantity_ideas
+	diplomatic_ideas
+}
+historical_units = { 
+	adal_guerilla_warfare
+	adal_gunpowder_warfare
+	african_abyssinian_cavalry
+	african_abyssinian_light_cavalry
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_somali_cavalry
+	african_spearmen
+	bantu_tribal_warfare
+	westernized_adal
+}
+monarch_names = { 
+	"Baarlin #0" = -1
+	"Bahir #0" = 0
+	"Caddaawe #0" = 0
+	"Caraweelo #0" = -1
+	"Carro #0" = -1
+	"Mirza #1" = 10
+	"Muslihiddin #0" = 0
+	"Obsiiye #0" = 0
+	"Samakaab #0" = 0
+	"Xaadsan #0" = -1
+	"Yahya #0" = 0
+	"Yusuf #0" = 0
+}
+leader_names = { 
+	"Abdelrashid" "Barré" "Bol" "Deng" "Lemn" "Leta" "Semer" "Teka" "Tsige" "Yagoub"
+}
+ship_names = { 
+	"Asayita" "Aura" "Awash" "Berahle" "Chifra" "Dallol" "Dubti" "Dulecha" "Elidar" "Ewa"
+	"Gewane" "Koneba" "Mille" "Semera" "Simurobi" "Yalo" 
+}

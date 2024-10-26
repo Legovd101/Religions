@@ -1,0 +1,21 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 42 87 151 }
+monarch_names = {
+	"Adiam #0" = 0
+	"Augerón #0" = 0
+	"Bentejuí #0" = 0
+	"Guanarteme #0" = 0
+	"Guayafanta #0" = -1
+	"Guayarmina #0" = -1
+	"Isora #0" = -1
+	"Ithaisa #0" = -1
+	"Massnsen #1" = 10
+	"Moneiba #0" = -1
+	"Nasçique #0" = -1
+	"Soront #0" = -1
+	"Tahona #0" = -1
+	"Tajaste #0" = 0
+	"Tiferán #0" = 0
+	"Tijandarte #0" = 0
+}

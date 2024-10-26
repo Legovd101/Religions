@@ -1,0 +1,57 @@
+government = monarchy
+add_government_reform = english_monarchy
+government_rank = 1
+technology_group = muslim
+religion = animism
+primary_culture = afghani
+capital = 4210
+fixed_capital = 4210
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Xwedayar"
+		dynasty = "Shugnanshah"
+		adm = 3
+		dip = 2
+		mil = 2
+		birth_date = 1404.4.22
+		religion = animism
+		culture = afghani
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Šelal"
+		dynasty = "Jindin"
+		adm = 4
+		dip = 2
+		mil = 6
+		country_of_origin = X5R
+		birth_date = 1405.1.1
+		death_date = 1465.1.1
+		female = yes
+		religion = animism
+		culture = afghani
+	}
+	add_queen_personality = infertile_personality
+	add_queen_personality = midas_touched_personality
+	heir = {
+		name = "Storay"
+		monarch_name = "Storay"
+		dynasty = "Shugnanshah"
+		adm = 2
+		dip = 6
+		mil = 4
+		birth_date = 1422.1.1
+		death_date = 1487.1.1
+		claim = 89
+		religion = animism
+		culture = afghani
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = well_connected_personality
+}
+1444.11.11= {
+	add_prestige = 48
+	add_treasury = 37
+}

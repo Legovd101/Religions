@@ -1,0 +1,13 @@
+capital = "Scahentowanen"
+culture = susquehannock
+religion = totemism
+trade_goods = unknown
+base_tax = 1
+base_production = 2
+base_manpower = 4
+discovered_by = north_american
+native_size = 5
+native_ferocity = 1
+2 = { 
+}
+is_city = no

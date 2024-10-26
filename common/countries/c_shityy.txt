@@ -1,0 +1,21 @@
+ck2_converter_generated = yes
+graphical_culture = inuitgfx
+color = { 130 155 160 }
+monarch_names = {
+	"Altan #0" = 0
+	"Amgalan #0" = 0
+	"Badmazhap #0" = 0
+	"Bair #0" = 0
+	"Bairma #0" = -1
+	"Ervko #0" = 0
+	"Innokentii #1" = 10
+	"Kako #0" = 0
+	"Khermen #0" = 0
+	"Namgar #0" = -1
+	"Sanzima #0" = -1
+	"Tseden #0" = 0
+	"Tsypelma #0" = -1
+	"Tsyrendashi #0" = 0
+	"Yeshinhorlo #0" = 0
+	"Zhimba #0" = -1
+}

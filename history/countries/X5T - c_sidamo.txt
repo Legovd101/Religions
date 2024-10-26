@@ -1,0 +1,43 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = east_african
+religion = coptic
+primary_culture = oromo
+capital = 1218
+fixed_capital = 1218
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11 = { 
+	monarch = { 
+		name = "Atsu"
+		dynasty = "Sidamo"
+		adm = 6
+		dip = 4
+		mil = 4
+		birth_date = 1412.1.1
+		religion = messalian
+		culture = oromo
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = zealot_personality
+	heir = { 
+		name = "Fura"
+		monarch_name = "Fura"
+		dynasty = "al-Harrani"
+		adm = 6
+		dip = 2
+		mil = 6
+		birth_date = 1426.9.19
+		death_date = 1491.9.19
+		female = yes
+		claim = 89
+		religion = messalian
+		culture = oromo
+	}
+	add_heir_personality = tactical_genius_personality
+	add_heir_personality = well_connected_personality
+}
+1444.11.11 = { 
+	add_prestige = 47
+	add_treasury = 39
+}

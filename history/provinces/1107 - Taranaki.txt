@@ -1,0 +1,12 @@
+owner = TNK
+controller = TNK
+capital = "Ngamotu"
+is_city = yes
+culture = maori
+religion = animism
+trade_goods = salt
+base_tax = 6
+base_production = 1
+base_manpower = 3
+add_core = TNK
+discovered_by = polynesian_tech

@@ -1,0 +1,9 @@
+culture = hannoverian
+religion = catholic
+is_city = no
+base_tax = 5
+base_manpower = 3
+base_production = 5
+add_core = UTR
+owner = UTR
+controller = UTR

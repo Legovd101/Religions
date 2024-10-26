@@ -1,0 +1,5 @@
+discovered_by = central_african
+discovered_by = east_african
+base_tax = 1
+base_manpower = 2
+base_production = 1

@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = english_monarchy
+government_rank = 1
+technology_group = indian
+religion = gayomarthianism
+primary_culture = bengali
+capital = 4477
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Satyajit"
+		dynasty = "Biswajit"
+		adm = 5
+		dip = 3
+		mil = 5
+		birth_date = 1408.1.1
+		religion = gayomarthianism
+		culture = bengali
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	heir = {
+		name = "Dharma"
+		monarch_name = "Dharma"
+		dynasty = "Biswajit"
+		adm = 4
+		dip = 2
+		mil = 1
+		birth_date = 1411.1.1
+		death_date = 1476.1.1
+		claim = 89
+		religion = gayomarthianism
+		culture = bengali
+	}
+	add_heir_personality = babbling_buffoon_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 41
+}

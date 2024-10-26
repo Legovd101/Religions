@@ -1,0 +1,14 @@
+owner = KEL
+controller = KEL
+capital = "Terengganu"
+is_city = yes
+religion = sunni
+trade_goods = fish
+base_tax = 4
+base_production = 5
+base_manpower = 3
+add_core = KEL
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

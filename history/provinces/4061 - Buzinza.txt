@@ -1,0 +1,12 @@
+owner = KRW
+controller = KRW
+capital = "Buzinza"
+is_city = yes
+culture = takama
+religion = shamanism
+trade_goods = iron
+base_tax = 4
+base_production = 4
+base_manpower = 6
+add_core = KRW
+discovered_by = central_african

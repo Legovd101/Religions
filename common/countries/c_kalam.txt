@@ -1,0 +1,19 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 65 165 85 }
+monarch_names = {
+	"Abe #0" = 0
+	"Agbumanu #0" = 0
+	"Agyo #0" = 0
+	"Amatsonde #0" = 0
+	"Angyu #0" = -1
+	"Ashoshu #0" = 0
+	"Atsi #0" = -1
+	"Awanya #0" = -1
+	"Giakwa #0" = -1
+	"Jigira #0" = 0
+	"Shumanu #0" = 0
+	"Tijani #0" = -1
+	"Tokwa #0" = -1
+	"Wutso #1" = 10
+}

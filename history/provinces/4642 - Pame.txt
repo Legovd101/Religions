@@ -1,0 +1,12 @@
+capital = "Pame"
+culture = chichimecan
+religion = animism
+trade_goods = unknown
+base_tax = 3
+base_production = 3
+base_manpower = 4
+discovered_by = mesoamerican
+native_size = 10
+native_ferocity = 1
+native_hostileness = 5
+is_city = no

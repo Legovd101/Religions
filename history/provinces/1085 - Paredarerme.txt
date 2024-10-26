@@ -1,0 +1,11 @@
+capital = "Paredarerme"
+culture = palawa
+religion = dreamtime
+trade_goods = fish
+base_tax = 3
+base_production = 1
+base_manpower = 5
+discovered_by = aboriginal_tech
+native_size = 5
+native_ferocity = 1
+is_city = no

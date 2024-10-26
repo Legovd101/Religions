@@ -1,0 +1,15 @@
+capital = "Cameroon"
+culture = sawabantu
+religion = shamanism
+trade_goods = unknown
+base_tax = 3
+base_production = 1
+base_manpower = 6
+discovered_by = KON
+discovered_by = LOA
+discovered_by = NDO
+discovered_by = sub_saharan
+native_size = 90
+native_ferocity = 2
+native_hostileness = 9
+is_city = no

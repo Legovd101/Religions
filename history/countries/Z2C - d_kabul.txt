@@ -1,0 +1,58 @@
+government = monarchy
+add_government_reform = english_monarchy
+government_rank = 1
+technology_group = muslim
+religion = hinduism
+primary_culture = afghani
+capital = 448
+add_accepted_culture = hephthalite
+add_accepted_culture = panjabi
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Kallar"
+		dynasty = "Shahi"
+		adm = 2
+		dip = 3
+		mil = 2
+		birth_date = 1418.1.1
+		religion = hinduism
+		culture = afghani
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = secretive_personality
+	queen = {
+		name = "Perwane"
+		dynasty = "al-Harrani"
+		adm = 6
+		dip = 1
+		mil = 4
+		country_of_origin = Z2C
+		birth_date = 1418.1.1
+		death_date = 1478.1.1
+		female = yes
+		religion = mahayana
+		culture = afghani
+	}
+	add_queen_personality = intricate_web_weaver_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Aflah"
+		monarch_name = "Aflah"
+		dynasty = "Gardizid"
+		adm = 6
+		dip = 6
+		mil = 5
+		birth_date = 1389.4.12
+		death_date = 1454.4.12
+		claim = 89
+		religion = hinduism
+		culture = afghani
+	}
+	add_heir_personality = craven_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 52
+}

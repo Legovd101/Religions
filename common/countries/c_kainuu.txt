@@ -1,0 +1,21 @@
+ck2_converter_generated = yes
+graphical_culture = inuitgfx
+color = { 140 125 25 }
+monarch_names = {
+	"Asko #0" = 0
+	"Ilona #0" = -1
+	"Johannes #0" = 0
+	"Kaarina #0" = -1
+	"Kaleva #1" = 10
+	"Käpy #0" = -1
+	"Matti #0" = 0
+	"Mikko #0" = 0
+	"Oaván #0" = 0
+	"Petri #0" = 0
+	"Pyry #0" = 0
+	"Soini #0" = 0
+	"Sárra #0" = 0
+	"Tuija #0" = -1
+	"Uoti #0" = 0
+	"Vanamo #0" = -1
+}

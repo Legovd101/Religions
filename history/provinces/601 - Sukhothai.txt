@@ -1,0 +1,14 @@
+owner = SUK
+controller = SUK
+capital = "Sukhothai"
+is_city = yes
+culture = central_thai
+religion = buddhism
+trade_goods = chinaware
+base_tax = 1
+base_production = 3
+base_manpower = 6
+add_core = SUK
+discovered_by = chinese
+discovered_by = indian
+fort_15th = yes

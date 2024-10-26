@@ -1,0 +1,55 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = eastern
+religion = baltic_pagan
+primary_culture = lithuanian
+capital = 4535
+1444.11.11 = { 
+	monarch = { 
+		name = "Palemon"
+		dynasty = "Palemonaitis"
+		adm = 4
+		dip = 3
+		mil = 3
+		birth_date = 1402.1.1
+		religion = finnish_pagan
+		culture = lithuanian
+	}
+	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = well_connected_personality
+	queen = { 
+		name = "Žemyna"
+		dynasty = "of Žemaiteje"
+		adm = 4
+		dip = 2
+		mil = 2
+		country_of_origin = LIT
+		birth_date = 1410.1.1
+		death_date = 1470.1.1
+		female = yes
+		religion = finnish_pagan
+		culture = lithuanian
+	}
+	add_queen_personality = midas_touched_personality
+	add_queen_personality = naive_personality
+	heir = { 
+		name = "Kunos"
+		monarch_name = "Kunos"
+		dynasty = "Palemonaitis"
+		adm = 6
+		dip = 5
+		mil = 3
+		birth_date = 1428.1.1
+		death_date = 1493.1.1
+		claim = 89
+		religion = finnish_pagan
+		culture = lithuanian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11 = { 
+	add_prestige = 47
+	add_treasury = 39
+}

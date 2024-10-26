@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = elective_monarchy_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+capital = 2536
+primary_culture = normand

@@ -1,0 +1,48 @@
+union=
+{
+	first="Z69"
+	second="Z7Q"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="PRO"
+	second="MOD"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="PRO"
+	second="X8R"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="PRO"
+	second="X9A"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="X7O"
+	second="TET"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+
+union=
+{
+	first="NSA"
+	second="Y9Z"
+	start_date="1444.11.11"
+	end_date="1836.1.1"
+}
+

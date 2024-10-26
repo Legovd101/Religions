@@ -1,0 +1,25 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 210 40 35 }
+monarch_names = {
+	"Abha #0" = -1
+	"Amit #0" = 0
+	"Anangapida #1" = 10
+	"Anushirvan #0" = 0
+	"Avantivarma #1" = 10
+	"Ayeshah #0" = 0
+	"Durlabhaka #0" = 0
+	"Gangaram #0" = 0
+	"Garg #0" = 0
+	"Gautam #0" = 0
+	"Jataylotu #0" = 0
+	"Jayamati #0" = -1
+	"Maghavati #0" = -1
+	"Noor #0" = -1
+	"Nur Bakht #0" = -1
+	"Rostam #0" = 0
+	"Samgramaraja #0" = 0
+	"Uccala #0" = 0
+	"Vajraditya #0" = 0
+	"Vasudev #0" = 0
+}

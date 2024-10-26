@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = english_monarchy
+government_rank = 1
+technology_group = muslim
+religion = gayomarthianism
+primary_culture = baluchi
+capital = 575
+fixed_capital = 575
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Feraz"
+		dynasty = "Ferazid"
+		adm = 3
+		dip = 1
+		mil = 5
+		birth_date = 1424.1.2
+		religion = gayomarthianism
+		culture = baluchi
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = midas_touched_personality
+	heir = {
+		name = "Ya'qub"
+		monarch_name = "Ya'qub"
+		dynasty = "Saffarid"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1417.1.1
+		death_date = 1482.1.1
+		claim = 89
+		religion = gayomarthianism
+		culture = persian
+	}
+	add_heir_personality = embezzler_personality
+	add_heir_personality = navigator_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 43
+}

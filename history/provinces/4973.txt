@@ -1,0 +1,12 @@
+discovered_by = north_american
+is_city = no
+add_core = FRT
+discovered_by = FRT
+discovered_by = MND
+owner = FRT
+controller = FRT
+culture = basque
+religion = cathar
+base_tax = 4
+base_manpower = 4
+base_production = 4

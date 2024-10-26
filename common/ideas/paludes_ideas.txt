@@ -1,0 +1,37 @@
+PLD_ideas = {
+	start = {
+		cavalry_shock = 1
+		cav_to_inf_ratio = 0.50
+	}
+	
+	bonus = {
+		special_unit_forcelimit = 0.15
+	}	
+
+	trigger = {
+		tag = PLD
+	}
+	free = yes
+	
+	PLD_wartime_unity = {
+		discipline = 0.15
+	}
+	PLD_britannian_beauracracy = {
+		state_governing_cost = -0.15
+	}
+	PLD_chariots_of_apollo = {
+	 	movement_speed = 0.10
+	}
+	PLD_restitutae_coloniae = {
+		culture_conversion_cost = -0.2
+	}
+	PLD_roman_heritage = {
+		core_creation = -0.2
+	}
+	PLD_right_to_rule = {
+		yearly_absolutism = 0.2
+	}
+	PLD_legacy_of_parthia = {
+		monarch_military_power = 2
+	}
+}

@@ -1,0 +1,40 @@
+government = monarchy
+add_government_reform = english_monarchy
+government_rank = 1
+technology_group = muslim
+religion = qarmatian
+primary_culture = berber
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Bugha al-Asghar"
+		dynasty = "al-Tabataba"
+		adm = 2
+		dip = 3
+		mil = 5
+		birth_date = 1408.4.7
+		religion = qarmatian
+		culture = berber
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = well_connected_personality
+	heir = {
+		name = "Ahmad"
+		monarch_name = "Ahmad II"
+		dynasty = "Tulunid"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1412.9.20
+		death_date = 1477.9.20
+		claim = 89
+		religion = bon
+		culture = al_misr_arabic
+	}
+	add_heir_personality = charismatic_negotiator_personality
+	add_heir_personality = intricate_web_weaver_personality
+}
+1444.11.11= {
+	add_prestige = 49
+	add_treasury = 41
+}

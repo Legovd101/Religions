@@ -1,0 +1,14 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 1
+technology_group = muslim
+religion = sunni
+primary_culture = al_misr_arabic
+capital = 361
+fixed_capital = 361
+mercantilism = 15
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11 = { 
+	add_prestige = 47
+	add_treasury = 54
+}

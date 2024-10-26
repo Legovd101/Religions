@@ -1,0 +1,4 @@
+discovered_by = polynesian_tech
+base_tax = 6
+base_manpower = 5
+base_production = 5

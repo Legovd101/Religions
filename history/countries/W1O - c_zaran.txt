@@ -1,0 +1,42 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = sub_saharan
+religion = mahayana
+primary_culture = mali
+capital = 2265
+fixed_capital = 2265
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Lafia"
+		dynasty = "Zaran"
+		adm = 2
+		dip = 5
+		mil = 4
+		birth_date = 1402.1.1
+		religion = mahayana
+		culture = mali
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = midas_touched_personality
+	heir = {
+		name = "Kpera"
+		monarch_name = "Kpera"
+		dynasty = "Zaran"
+		adm = 4
+		dip = 6
+		mil = 4
+		birth_date = 1427.1.1
+		death_date = 1492.1.1
+		claim = 89
+		religion = mahayana
+		culture = mali
+	}
+	add_heir_personality = intricate_web_weaver_personality
+	add_heir_personality = secretive_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 37
+}

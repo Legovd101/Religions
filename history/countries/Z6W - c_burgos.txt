@@ -1,0 +1,56 @@
+government = monarchy
+add_government_reform = english_monarchy
+government_rank = 1
+technology_group = muslim
+religion = iconoclast
+primary_culture = andalucian
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Lubb"
+		dynasty = "Burgusid"
+		adm = 2
+		dip = 0
+		mil = 4
+		birth_date = 1409.1.1
+		religion = iconoclast
+		culture = andalucian
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Majdala"
+		dynasty = "al-Harrani"
+		adm = 1
+		dip = 4
+		mil = 3
+		country_of_origin = Z6W
+		birth_date = 1413.1.1
+		death_date = 1473.1.1
+		female = yes
+		religion = iconoclast
+		culture = andalucian
+	}
+	add_queen_personality = midas_touched_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Nurah"
+		monarch_name = "Nurah"
+		dynasty = "Burgusid"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1434.1.1
+		death_date = 1499.1.1
+		female = yes
+		claim = 89
+		religion = iconoclast
+		culture = andalucian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 44
+}

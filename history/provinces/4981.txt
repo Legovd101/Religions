@@ -1,0 +1,6 @@
+culture = catawba
+is_city = no
+religion = totemism
+base_tax = 2
+base_manpower = 6
+base_production = 5

@@ -1,0 +1,21 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 130 55 25 }
+monarch_names = { 
+	"Chael #0" = 0
+	"Chaelsoñoja #0" = -1
+	"Christophoros #1" = 10
+	"Dauti #0" = 0
+	"Eionkouda #0" = 0
+	"Emmanouel #0" = 0
+	"Georgiou #0" = 0
+	"Goussi #0" = 0
+	"Ioel #0" = 0
+	"Iordanes #0" = 0
+	"Iêsousyko #0" = -1
+	"Keudonia #0" = -1
+	"Mashkoud #0" = 0
+	"Sarapion #0" = 0
+	"Senouthios #0" = 0
+	"Silko #0" = 0
+}

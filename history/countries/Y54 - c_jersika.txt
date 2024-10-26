@@ -1,0 +1,58 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = eastern
+religion = animism
+primary_culture = latvian
+capital = 273
+fixed_capital = 273
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Narvait"
+		dynasty = "Vidins"
+		adm = 5
+		dip = 3
+		mil = 4
+		birth_date = 1421.1.1
+		religion = animism
+		culture = latvian
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Darate"
+		dynasty = "Penikis"
+		adm = 3
+		dip = 2
+		mil = 2
+		country_of_origin = Y54
+		birth_date = 1426.1.1
+		death_date = 1486.1.1
+		female = yes
+		religion = animism
+		culture = pruthenian
+	}
+	add_queen_personality = well_connected_personality
+	add_queen_personality = zealot_personality
+	heir = {
+		name = "Darate"
+		monarch_name = "Darate"
+		dynasty = "Penikis"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1426.1.1
+		death_date = 1491.1.1
+		female = yes
+		claim = 89
+		religion = animism
+		culture = pruthenian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 37
+}

@@ -1,0 +1,40 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = eastern
+religion = paulician
+primary_culture = kishinyov
+capital = 2405
+1444.11.11 = { 
+	monarch = { 
+		name = "Mstislav"
+		dynasty = "Dniprich"
+		adm = 3
+		dip = 0
+		mil = 2
+		birth_date = 1417.1.1
+		religion = animism
+		culture = kishinyov
+	}
+	add_ruler_personality = babbling_buffoon_personality
+	add_ruler_personality = zealot_personality
+	heir = { 
+		name = "Bajan"
+		monarch_name = "Bajan"
+		dynasty = "Dridu0i"
+		adm = 6
+		dip = 2
+		mil = 2
+		birth_date = 1420.8.19
+		death_date = 1485.8.19
+		claim = 89
+		religion = animism
+		culture = kishinyov
+	}
+	add_heir_personality = babbling_buffoon_personality
+	add_heir_personality = naive_personality
+}
+1444.11.11 = { 
+	add_prestige = 47
+	add_treasury = 42
+}

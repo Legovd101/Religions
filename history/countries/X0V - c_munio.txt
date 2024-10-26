@@ -1,0 +1,41 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = sub_saharan
+religion = vajrayana
+primary_culture = zaghawa
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Ingir"
+		dynasty = "Goure"
+		adm = 1
+		dip = 5
+		mil = 2
+		birth_date = 1421.1.1
+		religion = vajrayana
+		culture = zaghawa
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = midas_touched_personality
+	heir = {
+		name = "Tele"
+		monarch_name = "Tele"
+		dynasty = "Goure"
+		adm = 5
+		dip = 6
+		mil = 6
+		birth_date = 1423.1.1
+		death_date = 1488.1.1
+		female = yes
+		claim = 89
+		religion = shamanism
+		culture = zaghawa
+	}
+	add_heir_personality = babbling_buffoon_personality
+	add_heir_personality = midas_touched_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 35
+}

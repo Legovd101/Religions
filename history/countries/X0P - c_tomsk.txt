@@ -1,0 +1,42 @@
+government = tribal
+add_government_reform = siberian_tribe
+government_rank = 1
+technology_group = eastern
+religion = bosnian_church
+primary_culture = samoyed
+capital = 2429
+fixed_capital = 2429
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Sukhrab"
+		dynasty = "Tomel"
+		adm = 1
+		dip = 4
+		mil = 1
+		birth_date = 1420.4.18
+		religion = bosnian_church
+		culture = samoyed
+	}
+	add_ruler_personality = free_thinker_personality
+	add_ruler_personality = infertile_personality
+	heir = {
+		name = "Barsbeg"
+		monarch_name = "Barsbeg"
+		dynasty = "Tomel"
+		adm = 6
+		dip = 6
+		mil = 6
+		birth_date = 1423.7.5
+		death_date = 1488.7.5
+		claim = 89
+		religion = bosnian_church
+		culture = samoyed
+	}
+	add_heir_personality = intricate_web_weaver_personality
+	add_heir_personality = secretive_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 39
+}

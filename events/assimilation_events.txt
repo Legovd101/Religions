@@ -1,0 +1,141 @@
+namespace = assimilation_events
+
+#Roman Conversions
+province_event = {
+	id = assimilation_events.1
+	title = assimilation_events.1.t
+	desc = assimilation_events.1.d
+	picture = SPY_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		owner = { culture_group = roman_group }
+		OR = {
+			has_building = villa
+			AND = {
+				has_owner_culture = yes
+				culture_group = roman_group
+			}
+			any_neighbor_province = {
+				OR = {
+					has_building = villa
+					culture_group = roman_group
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 480
+
+		modifier = {
+			factor = 0.25
+			culture = britannian
+		}
+		modifier = {
+			factor = 0.5
+			has_owner_religion = yes
+		}
+		modifier = {
+			factor = 0.5
+			has_building = villa
+		}
+		modifier = {
+			factor = 0.75
+			any_neighbor_province = {
+				OR = {
+					has_building = villa
+					culture_group = roman_group
+				}
+			}
+		}
+	}
+	
+	option = { #Yes
+		name = assimilation_events.1.a
+		
+		if = {
+			limit = { region = france_region }
+			change_culture = gaulic
+		}
+		else_if  = {
+			limit = { OR = { region = iberia_region  region = low_countries_region } }
+			change_culture = hispanic
+		}
+		else_if  = {
+			limit = { area = sicily_area }
+			change_culture = siculian
+		}
+		else_if  = {
+			limit = {
+				OR = {
+					area = lowlands_area
+					area = highlands_area
+					area = kingdom_of_the_isles_area
+				}
+			}
+			change_culture = caledonian
+		}
+		else_if = {
+			limit = {
+				OR = {
+					area = ulster_area
+					area = leinster_area
+					area = munster_area
+					area = connacht_area
+				}
+			}
+			change_culture = hibernian
+		}
+		else_if = {
+			limit = {
+				OR = {
+					area = greenland_area
+					area = iceland_area
+					area = subarctic_islands_area
+				}
+			}
+			change_culture = hyperborean
+		}
+		else_if = {
+			limit = {
+				OR = {
+					region = canada_region
+					region = hudson_bay_region
+				}
+			}
+			change_culture = ultimarian
+		}
+		else_if = {
+			limit = {
+				OR = {
+					area = tafilalt_area
+					area = sus_area
+					area = southern_morocco_area
+					area = northern_morocco_area
+					area = western_morocco_area
+					area = marrekesh_area
+					area = algiers_area
+				}
+			}
+			change_culture = mauretanian
+		}
+		else_if = {
+			limit = {
+				region = maghreb_region
+				NOT = {
+					OR = {
+						area = tafilalt_area
+						area = sus_area
+						area = southern_morocco_area
+						area = northern_morocco_area
+						area = western_morocco_area
+						area = marrekesh_area
+						area = algiers_area
+					}
+				}
+			}
+			change_culture = salinatorian
+		}
+	}

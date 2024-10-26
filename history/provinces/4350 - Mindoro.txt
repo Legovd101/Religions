@@ -1,0 +1,11 @@
+owner = TDO
+controller = TDO
+capital = "Caminawit"
+is_city = yes
+religion = mahayana
+trade_goods = gems
+base_tax = 2
+base_production = 3
+base_manpower = 5
+add_core = TDO
+discovered_by = chinese

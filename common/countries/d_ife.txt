@@ -1,0 +1,16 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 176 194 56 }
+monarch_names = { 
+	"Ade´dára #0" = -1
+	"Adésímb0` #0" = -1
+	"Agbedegbede #0" = 0
+	"Akínloyè #0" = -1
+	"Akínt0`míde´ #0" = 0
+	"Awaare #0" = 0
+	"Awóyalé #0" = -1
+	"Ila #1" = 10
+	"Ozuere #0" = 0
+	"Tiwaníf0´ #0" = -1
+	"Ósemwénde #0" = 0
+}

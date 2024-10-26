@@ -1,0 +1,6 @@
+base_tax = 5
+base_manpower = 5
+base_production = 3
+culture = old_egyptian
+religion = sunni
+is_city = no

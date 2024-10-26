@@ -1,0 +1,12 @@
+add_core = BRI
+owner = BRI
+culture = armorican
+religion = briton_pagan
+controller = BRI
+is_city = no
+trade_goods = grain
+base_tax = 6
+base_manpower = 2
+base_production = 4
+discovered_by = western
+discovered_by = eastern

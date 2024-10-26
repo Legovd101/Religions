@@ -1,0 +1,56 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = eastern
+religion = shamanism
+primary_culture = sapmi
+capital = 18
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Viggu"
+		dynasty = "Sapmi"
+		adm = 6
+		dip = 0
+		mil = 5
+		birth_date = 1422.1.1
+		religion = shamanism
+		culture = sapmi
+	}
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = zealot_personality
+	queen = {
+		name = "Giste"
+		dynasty = "al-Harrani"
+		adm = 4
+		dip = 2
+		mil = 6
+		country_of_origin = Z04
+		birth_date = 1427.1.1
+		death_date = 1487.1.1
+		female = yes
+		religion = shamanism
+		culture = sapmi
+	}
+	add_queen_personality = charismatic_negotiator_personality
+	add_queen_personality = well_connected_personality
+	heir = {
+		name = "Lávrrohas"
+		monarch_name = "Lávrrohas"
+		dynasty = "of Biton"
+		adm = 2
+		dip = 4
+		mil = 4
+		birth_date = 1422.1.1
+		death_date = 1487.1.1
+		claim = 89
+		religion = shamanism
+		culture = sapmi
+	}
+	add_heir_personality = silver_tongue_personality
+	add_heir_personality = well_connected_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 38
+}

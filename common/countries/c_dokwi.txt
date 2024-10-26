@@ -1,0 +1,20 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 90 178 238 }
+monarch_names = {
+	"Bathily #0" = 0
+	"Djenly #0" = -1
+	"Djire #0" = -1
+	"Fadima #0" = -1
+	"Fatoumata #0" = -1
+	"Kambine #0" = 0
+	"Kanafa #0" = 0
+	"Kilia #0" = -1
+	"Kondolon #0" = -1
+	"Maaman #0" = 0
+	"Reidja #0" = 0
+	"Sakho #0" = 0
+	"Sogolon #0" = -1
+	"Sy #0" = 0
+	"Zenku #0" = 0
+}

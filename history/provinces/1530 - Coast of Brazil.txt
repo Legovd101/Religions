@@ -1,0 +1,5 @@
+discovered_by = south_american
+discovered_by = AMZ
+base_tax = 3
+base_manpower = 1
+base_production = 5

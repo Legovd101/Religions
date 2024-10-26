@@ -1,0 +1,11 @@
+government = monarchy
+add_government_reform = uparaja_reform
+government_rank = 1
+technology_group = eastern
+religion = vajrayana
+primary_culture = greek
+capital = 142
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 49
+}

@@ -1,0 +1,16 @@
+capital = "Oiapoque"
+culture = roman
+religion = hellenic_pagan_reformed
+trade_goods = wine
+base_tax = 4
+base_production = 5
+base_manpower = 1
+discovered_by = south_american
+native_size = 15
+native_ferocity = 1
+native_hostileness = 2
+add_core = AMZ
+owner = AMZ
+controller = AMZ
+is_city = no
+discovered_by = AMZ

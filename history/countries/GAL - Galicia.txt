@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = noble_elite_reform
+government_rank = 1
+technology_group = western
+religion = arianism
+primary_culture = galician
+capital = 4554

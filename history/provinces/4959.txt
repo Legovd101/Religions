@@ -1,0 +1,9 @@
+culture = austrian
+religion = catholic
+is_city = no
+base_tax = 3
+base_manpower = 5
+base_production = 6
+add_core = BAV
+owner = BAV
+controller = BAV

@@ -1,0 +1,6 @@
+discovered_by = MKS
+discovered_by = TER
+discovered_by = TID
+base_tax = 1
+base_manpower = 3
+base_production = 5

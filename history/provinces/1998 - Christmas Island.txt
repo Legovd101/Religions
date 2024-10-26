@@ -1,0 +1,6 @@
+capital = "Flying Fish Cove"
+trade_goods = unknown
+base_tax = 3
+base_production = 4
+base_manpower = 1
+is_city = no

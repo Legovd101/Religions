@@ -1,0 +1,7 @@
+government = republic
+add_government_reform = trading_city
+government_rank = 1
+technology_group = eastern
+religion = orthodox
+capital = 2348
+primary_culture = athenian

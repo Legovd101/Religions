@@ -1,0 +1,15 @@
+owner = APO
+controller = APO
+capital = "Odawa"
+is_city = yes
+culture = welsh
+religion = insular_celtic
+trade_goods = fur
+base_tax = 4
+base_production = 4
+base_manpower = 6
+discovered_by = north_american
+native_size = 5
+native_ferocity = 1
+native_hostileness = 2
+add_core = APO

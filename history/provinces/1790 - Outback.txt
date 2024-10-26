@@ -1,0 +1,5 @@
+discovered_by = aboriginal_tech
+base_tax = 1
+base_manpower = 6
+base_production = 1
+is_city = no

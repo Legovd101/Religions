@@ -1,0 +1,15 @@
+owner = APO
+controller = APO
+capital = "Attignawantan"
+is_city = yes
+culture = welsh
+religion = insular_celtic
+trade_goods = fur
+base_tax = 5
+base_production = 1
+base_manpower = 6
+discovered_by = north_american
+native_size = 10
+native_ferocity = 5
+native_hostileness = 2
+add_core = APO

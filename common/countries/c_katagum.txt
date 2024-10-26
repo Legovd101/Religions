@@ -1,0 +1,22 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 42 168 70 }
+monarch_names = { 
+	"Bakuso #0" = -1
+	"Dandauda #0" = 0
+	"Dantune #0" = 0
+	"Dogonayaro #0" = 0
+	"Gwamma #0" = -1
+	"Hakama #0" = -1
+	"Hakuri #0" = -1
+	"Hankali #0" = -1
+	"Jika #0" = 0
+	"Kabe #0" = 0
+	"Kuluwa #0" = -1
+	"Lami #0" = -1
+	"Lorane #0" = -1
+	"Magira #0" = -1
+	"Nagoma #0" = 0
+	"Samu #0" = -1
+	"Zaudai #1" = 10
+}

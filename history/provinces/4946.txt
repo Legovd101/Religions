@@ -1,0 +1,12 @@
+add_core = CRN
+owner = CRN
+culture = cornish
+trade_goods = livestock
+religion = catholic
+controller = CRN
+is_city = no
+base_tax = 4
+base_manpower = 5
+base_production = 4
+discovered_by = western
+discovered_by = eastern

@@ -1,0 +1,47 @@
+l_english:
+
+ #---------------------------------------------------------
+ # Pld Conquest
+ #---------------------------------------------------------
+
+ bulls_of_mithras_title: "Bulls Of Mithras"
+ bulls_of_mithras_desc: ""
+ meutonian_coast_title: "Meutonian Coast"
+ meutonian_coast_desc: ""
+ lincolnia_to_londinium_title: "Lincolnia To Londinium"
+ lincolnia_to_londinium_desc: ""
+ britannia_superior_title: "Britannia Superior"
+ britannia_superior_desc: ""
+ britannia_borealis_title: "Britannia Borealis"
+ britannia_borealis_desc: ""
+
+ #---------------------------------------------------------
+ # Pld Army
+ #---------------------------------------------------------
+
+ organizing_forces_title: "Organizing Forces"
+ organizing_forces_desc: ""
+ pridainian_fleet_title: "Pridainian Fleet"
+ pridainian_fleet_desc: ""
+ invasion_of_hibernia_title: "Invasion Of Hibernia"
+ invasion_of_hibernia_desc: ""
+ restoration_of_the_coloniae_title: "Restoration Of The Coloniae"
+ restoration_of_the_coloniae_desc: ""
+
+ #---------------------------------------------------------
+ # Pld Espionage
+ #---------------------------------------------------------
+
+ allies_in_londinium_title: "Allies In Londinium"
+ allies_in_londinium_desc: ""
+ agents_of_argent_title: "Agents Of Argent"
+ agents_of_argent_desc: ""
+
+ #---------------------------------------------------------
+ # Pld Gaul
+ #---------------------------------------------------------
+
+ sinus_armoricus_title: "Sinus Armoricus"
+ sinus_armoricus_desc: ""
+ gallian_restoration_title: "Gallian Restoration"
+ gallian_restoration_desc: ""

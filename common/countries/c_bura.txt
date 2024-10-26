@@ -1,0 +1,20 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 200 54 103 }
+monarch_names = {
+	"Ankabi #0" = 0
+	"Fari-Mondzo #0" = 0
+	"Gando #0" = -1
+	"Gorba #0" = 0
+	"Ikoi #1" = 10
+	"Kibu’U #0" = 0
+	"Kouton #0" = -1
+	"Kusur #0" = 0
+	"Layla #0" = -1
+	"Nuru #0" = -1
+	"Seyni #0" = 0
+	"Tarifa #0" = -1
+	"Teko #0" = -1
+	"Zalil #0" = 0
+	"Zaynab #0" = -1
+}

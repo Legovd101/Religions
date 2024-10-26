@@ -1,0 +1,21 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 146 110 138 }
+monarch_names = {
+	"Amo Elema #0" = 0
+	"Awo #0" = -1
+	"Benyepo Eye #0" = 0
+	"Bonyangso #0" = 0
+	"Bore Nyekpe #0" = 0
+	"Bore Walae #0" = 0
+	"Bore Wo #1" = 10
+	"Dariche #0" = 0
+	"Dokilebi #0" = 0
+	"Ewonye #0" = 0
+	"Fatim #0" = -1
+	"Kenyiti #0" = 0
+	"Maram #0" = -1
+	"Ndoye #0" = -1
+	"Nefa #0" = 0
+	"Sall #0" = -1
+}

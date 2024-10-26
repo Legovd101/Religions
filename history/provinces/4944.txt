@@ -1,0 +1,12 @@
+add_core = BRI
+owner = BRI
+culture = armorican
+religion = catholic
+controller = BRI
+is_city = no
+trade_goods = gems
+base_tax = 5
+base_manpower = 4
+base_production = 6
+discovered_by = western
+discovered_by = eastern

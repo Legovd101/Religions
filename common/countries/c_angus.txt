@@ -1,0 +1,20 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 225 125 20 }
+monarch_names = {
+	"Bridei #0" = 0
+	"Causantín #1" = 10
+	"Coblaith #0" = -1
+	"Cuindles #0" = 0
+	"Custennin #0" = 0
+	"Deirdre #0" = -1
+	"Domnall #0" = 0
+	"Drosten #0" = 0
+	"Dubhghall #0" = 0
+	"Dyfnwal #0" = 0
+	"Ecgwyn #0" = -1
+	"Gwidyr #0" = 0
+	"Madrun #0" = -1
+	"Rúadán #0" = 0
+	"Uuirp #0" = 0
+}

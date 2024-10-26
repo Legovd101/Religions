@@ -1,0 +1,5 @@
+discovered_by = ARW
+discovered_by = CAB
+base_tax = 4
+base_manpower = 4
+base_production = 4

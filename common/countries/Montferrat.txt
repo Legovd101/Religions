@@ -1,0 +1,63 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 96 183 6 }
+revolutionary_colors = { 5 0 0 }
+historical_idea_groups = { 
+	religious_ideas
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	innovativeness_ideas
+	spy_ideas
+	offensive_ideas
+	administrative_ideas
+}
+historical_units = { 
+	austrian_grenzer
+	austrian_hussar
+	austrian_jaeger
+	austrian_tercio
+	austrian_white_coat
+	italian_condotta
+	mixed_order_infantry
+	napoleonic_lancers
+	napoleonic_square
+	open_order_cavalry
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+}
+monarch_names = { 
+	"Aleramo #0" = 0
+	"Angiùla #0" = -1
+	"Anthier #0" = 0
+	"Cremente #0" = 0
+	"Francis #0" = 0
+	"Ghino #0" = 0
+	"Girœummo #0" = 0
+	"Godfried #0" = 0
+	"Guiddo #0" = 0
+	"Hugues #0" = 0
+	"Liutfred #0" = 0
+	"Lìddia #0" = -1
+	"Marìa #0" = -1
+	"Odalric #1" = 10
+	"Philippe #0" = 0
+	"Päula #0" = -1
+	"Reusa #0" = -1
+	"Tersa #0" = -1
+}
+leader_names = { 
+	"Alberti" "Amelia" "Barone" "Barzagli" "Belmonte" "Bibiena" "Boninsegna" "Bosio" "Casabianca" "Castagnaro"
+	"Cocconi" "Colombo" "Conti" "Fancelli" "Freddi" "Gatti" "Germano" "Gonzaga" "Grazioli" "Grosso"
+	"Idoni" "Innocenti" "Juvarra" "Lori" "Manfredi" "Mantegna" "Montanari" "Neri" "Oddo" "Panzavecchia"
+	"Pesci" "Piccoli" "Pico" "Poggio" "Poma" "Romano" "Speri" "Tassoni" "Tazolli" "Tedesco"
+	"Toselli" "Zaccardo" "Zappa" "d'Absburgo" "de Canal" "de Rossi" "de' Medici" "del Piero" "di Busca" 
+}
+ship_names = { 
+	"Alberto Pitentino" "Andrea Mantegna" "Anselmo de Lucca" "Barbara di Brandeburgo" "Castelletto Borgo" "Donatello" "Fiume Mincio" "Formigosa" "Ghibellini" "Guelphi"
+	"Luca Fancelli" "Matilde Canossa" "Pinamonte Bonacolsi" "Rinaldo Bonacolsi" "San Lorenzo" "San Sebastiano" "Sant'Andrea" 
+}
+army_names = { 
+	"Armata de $PROVINCE$" 
+}

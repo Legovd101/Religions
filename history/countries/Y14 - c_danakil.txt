@@ -1,0 +1,43 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = east_african
+religion = animism
+primary_culture = afar
+capital = 2765
+fixed_capital = 2765
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Aref"
+		dynasty = "Eddi"
+		adm = 3
+		dip = 4
+		mil = 0
+		birth_date = 1422.1.1
+		religion = animism
+		culture = afar
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	heir = {
+		name = "Luula"
+		monarch_name = "Luula"
+		dynasty = "al-Harrani"
+		adm = 3
+		dip = 4
+		mil = 6
+		birth_date = 1421.9.29
+		death_date = 1486.9.29
+		female = yes
+		claim = 89
+		religion = sunni
+		culture = afar
+	}
+	add_heir_personality = intricate_web_weaver_personality
+	add_heir_personality = secretive_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 39
+}

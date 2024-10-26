@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = mandala_reform
+government_rank = 1
+technology_group = chinese
+religion = totemism
+primary_culture = tocharian
+capital = 4209
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Dharma"
+		dynasty = "Kasyar"
+		adm = 5
+		dip = 3
+		mil = 6
+		birth_date = 1417.1.1
+		religion = totemism
+		culture = tocharian
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = zealot_personality
+	heir = {
+		name = "Pakyau"
+		monarch_name = "Pakyau"
+		dynasty = "Kasyar"
+		adm = 2
+		dip = 0
+		mil = 3
+		birth_date = 1437.1.1
+		death_date = 1502.1.1
+		claim = 89
+		religion = totemism
+		culture = tocharian
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 43
+}

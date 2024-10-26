@@ -1,0 +1,40 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = eastern
+religion = caucasian_pagan
+primary_culture = circassian
+capital = 463
+1444.11.11 = { 
+	monarch = { 
+		name = "Itaz"
+		dynasty = "Ovseti"
+		adm = 3
+		dip = 1
+		mil = 4
+		birth_date = 1417.1.1
+		religion = bon_reformed
+		culture = circassian
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = zealot_personality
+	heir = { 
+		name = "Levan"
+		monarch_name = "Levan"
+		dynasty = "Ovseti"
+		adm = 3
+		dip = 3
+		mil = 2
+		birth_date = 1439.1.1
+		death_date = 1504.1.1
+		claim = 89
+		religion = bon_reformed
+		culture = alan
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11 = { 
+	add_prestige = 47
+	add_treasury = 37
+}

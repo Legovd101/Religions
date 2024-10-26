@@ -1,0 +1,71 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 211 84 79 }
+revolutionary_colors = { 13 10 5 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	spy_ideas
+	religious_ideas
+	quantity_ideas
+}
+historical_units = {
+	african_dragoon
+	african_hill_warfare
+	african_hussar
+	african_mandelaku
+	african_mossi_horsemen
+	african_spearmen
+	african_tuareg_cavalry
+	african_western_franchise_warfare
+	mali_tribal_warfare
+	niger_kongolese_gunpowder_warfare
+	westernized_niger_kongolese
+}
+monarch_names = {
+	"Abafingi #0" = 0
+	"Abasankpe #0" = -1
+	"Badan #0" = 0
+	"Ceyagi #0" = -1
+	"Gbongbo #0" = -1
+	"Jinadu #1" = 10
+	"Kolo #0" = 0
+	"Mawo #0" = -1
+	"Ndace #0" = 0
+	"Ndagi #0" = -1
+	"Shirun #0" = 0
+	"Tsado #0" = 0
+	"Tsadu #0" = -1
+	"Wonciko #0" = -1
+	"Woye #0" = -1
+	"Wusa #0" = -1
+	"Zhigun #0" = -1
+}
+leader_names = {
+	"Ajuwa"
+	"Aliu"
+	"Ezinwa"
+	"Kanu"
+	"Okara"
+	"Opara"
+	"Rufai"
+	"Solaja"
+	"Ubah"
+	"Umaru"
+}
+ship_names = {
+	"Ajaka"
+	"Ile n'fe"
+	"Ille-Ife"
+	"O'odua"
+	"Obatala"
+	"Odudua"
+	"Oduduwa"
+	"Olorun Olodumare"
+	"Oranyan"
+	"Oyo-Ille"
+	"Sango"
+}

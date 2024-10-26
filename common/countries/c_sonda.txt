@@ -1,0 +1,18 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 230 115 20 }
+monarch_names = {
+	"Chuda #0" = 0
+	"Daghfal #0" = 0
+	"Dujanah #0" = -1
+	"Genhra #0" = 0
+	"Ghalibah #0" = -1
+	"Govindapal #0" = 0
+	"Hariraja #0" = 0
+	"Iffah #0" = -1
+	"Kakru #1" = 10
+	"Ozza #0" = -1
+	"Raydhanji #0" = 0
+	"Soomar #0" = 0
+	"Ukkashah #0" = 0
+}

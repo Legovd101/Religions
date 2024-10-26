@@ -1,0 +1,12 @@
+owner = KIK
+controller = KIK
+capital = "Kikondja"
+is_city = yes
+culture = luba
+religion = shamanism
+trade_goods = salt
+base_tax = 3
+base_production = 1
+base_manpower = 4
+add_core = KIK
+discovered_by = central_african

@@ -1,0 +1,39 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = sub_saharan
+religion = magyar_pagan
+primary_culture = aka
+1444.11.11= {
+	monarch = {
+		name = "Footou"
+		dynasty = "Egya"
+		adm = 1
+		dip = 2
+		mil = 3
+		birth_date = 1412.1.1
+		religion = magyar_pagan
+		culture = aka
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = midas_touched_personality
+	heir = {
+		name = "Bore Walae"
+		monarch_name = "Bore Walae"
+		dynasty = "Egya"
+		adm = 2
+		dip = 2
+		mil = 1
+		birth_date = 1437.1.1
+		death_date = 1502.1.1
+		claim = 89
+		religion = magyar_pagan
+		culture = aka
+	}
+	add_heir_personality = well_connected_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 39
+}

@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 1
+technology_group = east_african
+religion = sunni
+primary_culture = nubian
+capital = 1228
+mercantilism = 15
+1444.11.11 = { 
+	monarch = { 
+		name = "Zakharias"
+		dynasty = "Azim"
+		adm = 0
+		dip = 5
+		mil = 2
+		birth_date = 1427.1.1
+		religion = bogomilist
+		culture = nubian
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = secretive_personality
+	heir = { 
+		name = "Senouthios"
+		monarch_name = "Senouthios"
+		dynasty = "al-Harrani"
+		adm = 6
+		dip = 6
+		mil = 5
+		birth_date = 1409.12.14
+		death_date = 1474.12.14
+		claim = 89
+		religion = bogomilist
+		culture = nubian
+	}
+	add_heir_personality = strict_personality
+	add_heir_personality = tactical_genius_personality
+}
+1444.11.11 = { 
+	add_prestige = 47
+	add_treasury = 44
+}

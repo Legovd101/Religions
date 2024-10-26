@@ -1,0 +1,5 @@
+discovered_by = chinese
+discovered_by = indian
+base_tax = 3
+base_manpower = 3
+base_production = 3

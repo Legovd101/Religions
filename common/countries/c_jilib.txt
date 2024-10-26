@@ -1,0 +1,21 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 227 126 58 }
+monarch_names = { 
+	"Awal #0" = 0
+	"Beshi #0" = 0
+	"Caateye #0" = 0
+	"Caraweelo #0" = -1
+	"Casoowe #0" = 0
+	"Dirir #0" = 0
+	"Giba #0" = 0
+	"Jid'ati #1" = 10
+	"Leellamo #0" = -1
+	"Libana #0" = 0
+	"Liin #0" = -1
+	"Milgo #0" = -1
+	"Sabir #0" = 0
+	"Ugbaad #0" = -1
+	"Warsan #0" = -1
+	"Wojjo #0" = -1
+}

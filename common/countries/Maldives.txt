@@ -1,0 +1,54 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 191 25 25 }
+revolutionary_colors = { 10 4 0 }
+historical_idea_groups = { 
+	trade_ideas
+	quantity_ideas
+	administrative_ideas
+	innovativeness_ideas
+	defensive_ideas
+	maritime_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+}
+historical_units = { 
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	rajput_hill_fighters
+	reformed_mughal_musketeer
+	sikh_rifle
+	south_indian_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = { 
+	"Aditya #0" = 0
+	"Ananda #0" = 0
+	"Damaruci #0" = -1
+	"Damati #0" = -1
+	"Dharmavantha #1" = 10
+	"Jayabahu #0" = 0
+	"Kitti #0" = 0
+	"Lilavati #0" = -1
+	"Mahasena #0" = 0
+	"Parakramabahu #0" = 0
+	"Rasumiliya #0" = -1
+	"Rohaka #0" = 0
+	"Sivali #0" = -1
+	"Somali #0" = -1
+	"Sujhata #0" = -1
+	"Tissa #0" = 0
+	"Vijaya #0" = 0
+	"Vimaladharmasuriya #0" = 0
+}
+leader_names = { 
+	"Aadita" "Dambidu" "Dhiyamigili" "Hamawi" "Hilaalee" "Homa" "Huraa" "Isdhoo" "Theemuge" "Utheemu"
+}
+ship_names = { 
+	"Alia" "Alisha" "Ari" "Aziza" "Fadhippolhu" "Fatimah" "Felidhoo" "Goidhoo" "Kolhumadulu" "Maalhosmadulu"
+	"Male" "Niknaz" "Niloufa" "Ramazan" "Yasmine" "Zahira" 
+}

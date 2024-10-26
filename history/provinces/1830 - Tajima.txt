@@ -1,0 +1,16 @@
+owner = YMN
+controller = YMN
+capital = "Tottori"
+is_city = yes
+culture = japanese
+religion = shinto
+trade_goods = grain
+base_tax = 5
+base_production = 1
+base_manpower = 3
+add_core = YMN
+discovered_by = KHA
+discovered_by = MCH
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = chinese

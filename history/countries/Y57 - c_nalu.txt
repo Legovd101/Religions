@@ -1,0 +1,42 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = sub_saharan
+religion = coptic
+primary_culture = senegambian
+capital = 2241
+fixed_capital = 2241
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11 = { 
+	monarch = { 
+		name = "Fabule"
+		dynasty = "Nalu"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 1392.1.1
+		religion = paulician
+		culture = senegambian
+	}
+	add_ruler_personality = well_connected_personality
+	add_ruler_personality = zealot_personality
+	heir = { 
+		name = "Jahn"
+		monarch_name = "Jahn"
+		dynasty = "Nalu"
+		adm = 5
+		dip = 3
+		mil = 5
+		birth_date = 1418.1.1
+		death_date = 1483.1.1
+		claim = 89
+		religion = paulician
+		culture = senegambian
+	}
+	add_heir_personality = infertile_personality
+	add_heir_personality = tactical_genius_personality
+}
+1444.11.11 = { 
+	add_prestige = 47
+	add_treasury = 35
+}

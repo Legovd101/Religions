@@ -1,0 +1,9 @@
+culture = old_pommeranian
+religion = catholic
+is_city = no
+base_tax = 6
+base_manpower = 3
+base_production = 1
+add_core = POL
+owner = POL
+controller = POL

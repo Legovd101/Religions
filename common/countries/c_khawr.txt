@@ -1,0 +1,13 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 25 95 65 }
+monarch_names = {
+	"Achyutadeva #0" = 0
+	"Gangaraja #0" = 0
+	"Gerdengaz #0" = -1
+	"Madhava #0" = 0
+	"Morteza #1" = 10
+	"Ratna Kuvar #0" = -1
+	"Tahmasp #0" = 0
+	"Thirumalambike #0" = -1
+}

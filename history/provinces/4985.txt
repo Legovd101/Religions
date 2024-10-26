@@ -1,0 +1,6 @@
+culture = powhatan
+is_city = no
+religion = totemism
+base_tax = 5
+base_manpower = 4
+base_production = 6

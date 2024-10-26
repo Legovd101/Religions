@@ -1,0 +1,20 @@
+ck2_converter_generated = yes
+graphical_culture = inuitgfx
+color = { 230 200 10 }
+monarch_names = {
+	"Ahma #1" = 10
+	"Aleksanteri #0" = 0
+	"Eeva #0" = -1
+	"Helena #0" = -1
+	"Huohvana #0" = 0
+	"Kassu #0" = 0
+	"Katri #0" = -1
+	"Larissa #0" = -1
+	"Lea #0" = -1
+	"Matjoi #0" = -1
+	"Mikittä #0" = 0
+	"Parmoi #0" = 0
+	"Sohro #0" = 0
+	"Teppana #0" = 0
+	"Tero #0" = 0
+}

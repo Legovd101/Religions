@@ -1,0 +1,6 @@
+culture = yamasee
+is_city = no
+religion = totemism
+base_tax = 4
+base_manpower = 1
+base_production = 4

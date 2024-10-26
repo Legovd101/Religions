@@ -1,0 +1,7 @@
+discovered_by = MKS
+discovered_by = TER
+discovered_by = TID
+discovered_by = aboriginal_tech
+base_tax = 1
+base_manpower = 6
+base_production = 3

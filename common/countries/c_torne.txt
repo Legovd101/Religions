@@ -1,0 +1,20 @@
+ck2_converter_generated = yes
+graphical_culture = inuitgfx
+color = { 45 45 135 }
+monarch_names = {
+	"Aamu #0" = -1
+	"Ahkemiella #0" = 0
+	"Gáktu #0" = 0
+	"Leammá #0" = 0
+	"Lávrrohas #0" = 0
+	"Náhkol #0" = 0
+	"Oaván #1" = 10
+	"Orddot #0" = 0
+	"Ruigi #0" = 0
+	"Soabá #0" = -1
+	"Sojá #0" = -1
+	"Viggu #0" = 0
+	"Áilu #0" = 0
+	"Ámmot #0" = 0
+	"Èoavvá #0" = 0
+}

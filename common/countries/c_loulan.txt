@@ -1,0 +1,21 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 70 200 230 }
+monarch_names = { 
+	"Amrätasene #0" = -1
+	"Gayakasyape #0" = 0
+	"Kosthile #0" = -1
+	"Malika #0" = -1
+	"Maya #0" = -1
+	"Naradeve #0" = 0
+	"Pawaske #0" = 0
+	"Ramastso #0" = 0
+	"Sarpina #0" = -1
+	"Silarakite #1" = 10
+	"Sumaise #0" = -1
+	"Tarma #0" = -1
+	"Uppalavarna #0" = -1
+	"Wiryadewe #0" = 0
+	"Wäryasene #0" = 0
+	"Yasaraksite #0" = -1
+}

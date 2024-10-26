@@ -1,0 +1,26 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 100 180 240 }
+monarch_names = { 
+	"Alyohjah #0" = -1
+	"Bhadra #0" = 0
+	"Cheng #0" = 0
+	"Fujin #0" = -1
+	"Haskadatta #0" = 0
+	"Ikam #0" = 0
+	"Jajahasa #0" = 0
+	"Nirmala #0" = -1
+	"Pakyau #0" = 0
+	"Qi #0" = 0
+	"Sangrama #0" = 0
+	"Shambhava #0" = 0
+	"Shi #0" = -1
+	"Simha #0" = 0
+	"Sutoka #0" = -1
+	"Vikarma #1" = 10
+	"Ysambasta #0" = 0
+	"Yu #0" = 0
+	"Yuying #0" = -1
+	"Zhuzhu #0" = -1
+	"Ziyi #0" = -1
+}

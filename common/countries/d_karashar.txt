@@ -1,0 +1,21 @@
+ck2_converter_generated = yes
+graphical_culture = asiangfx
+color = { 90 170 220 }
+monarch_names = {
+	"Aghatzak #0" = -1
+	"Bokut #1" = 10
+	"Dhrtirastre #0" = -1
+	"Divashtich #0" = 0
+	"Donya #0" = -1
+	"Golshan #0" = -1
+	"Jñati #0" = -1
+	"Katakarni #0" = 0
+	"Keykhosraw #0" = 0
+	"Praniyata #0" = -1
+	"Revati #0" = -1
+	"Sagharak #1" = 10
+	"Sanakhram #0" = -1
+	"Sari #0" = -1
+	"Wakhushakk #0" = 0
+	"Yastare #0" = 0
+}

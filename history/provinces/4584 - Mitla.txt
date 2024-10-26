@@ -1,0 +1,12 @@
+owner = ZAP
+controller = ZAP
+capital = "Mitla"
+is_city = yes
+culture = zapotek
+religion = nahuatl
+trade_goods = sugar
+base_tax = 4
+base_production = 4
+base_manpower = 5
+add_core = ZAP
+discovered_by = mesoamerican

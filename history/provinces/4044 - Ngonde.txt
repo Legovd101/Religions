@@ -1,0 +1,12 @@
+owner = TBK
+controller = TBK
+capital = "Chilumba"
+is_city = yes
+culture = nyasa
+religion = shamanism
+trade_goods = ivory
+base_tax = 3
+base_production = 4
+base_manpower = 3
+add_core = TBK
+discovered_by = central_african

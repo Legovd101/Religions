@@ -1,0 +1,43 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = western
+religion = arab_pagan
+primary_culture = icelandic
+capital = 370
+fixed_capital = 370
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Ingólfr"
+		dynasty = "Naddoðr"
+		adm = 4
+		dip = 3
+		mil = 4
+		birth_date = 1417.1.1
+		religion = arab_pagan
+		culture = icelandic
+	}
+	add_ruler_personality = naive_personality
+	add_ruler_personality = zealot_personality
+	heir = {
+		name = "Helga"
+		monarch_name = "Helga"
+		dynasty = "Naddoðr"
+		adm = 6
+		dip = 2
+		mil = 6
+		birth_date = 1420.1.1
+		death_date = 1485.1.1
+		female = yes
+		claim = 89
+		religion = arab_pagan
+		culture = norse
+	}
+	add_heir_personality = infertile_personality
+	add_heir_personality = midas_touched_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 39
+}

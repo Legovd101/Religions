@@ -1,0 +1,22 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 68 110 18 }
+monarch_names = { 
+	"Banti #0" = 0
+	"Bologi #0" = -1
+	"Ciwan #0" = -1
+	"Dwan #0" = 0
+	"Kakpe #0" = -1
+	"Lefiya #0" = 0
+	"Mawo #0" = -1
+	"Ndagi #0" = 0
+	"Ndagoro #1" = 10
+	"Ndako #0" = -1
+	"Ndazhiko #0" = 0
+	"Nmagi #0" = -1
+	"Nnaga #0" = -1
+	"Nnako #0" = 0
+	"Sogba #0" = -1
+	"Sokoeyanyao #0" = -1
+	"Wonciko #0" = -1
+}

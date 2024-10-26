@@ -1,0 +1,19 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 32 115 30 }
+monarch_names = {
+	"Artgus #0" = 0
+	"Barrdub #0" = -1
+	"Catríona #0" = -1
+	"Cenn-Fáelad #1" = 10
+	"Cuilén #0" = 0
+	"Eógan #0" = 0
+	"Imchad #0" = 0
+	"Natfraech #0" = 0
+	"Sinach #0" = 0
+	"Siothrún #0" = 0
+	"Séafra #0" = 0
+	"Áine #0" = -1
+	"Ólchobar #0" = 0
+	"Úna #0" = -1
+}

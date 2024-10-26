@@ -1,0 +1,5 @@
+discovered_by = NOV
+base_tax = 3
+base_manpower = 3
+base_production = 4
+is_city = no

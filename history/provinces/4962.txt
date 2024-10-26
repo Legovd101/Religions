@@ -1,0 +1,12 @@
+culture = inuit
+is_city = no
+add_core = AKL
+add_core = ICE
+owner = AKL
+religion = totemism
+controller = AKL
+trade_goods = fish
+discovered_by = AKL
+base_tax = 6
+base_manpower = 4
+base_production = 2

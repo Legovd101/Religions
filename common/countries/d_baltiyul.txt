@@ -1,0 +1,17 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 190 210 245 }
+monarch_names = { 
+	"Aasha #0" = -1
+	"Gulhana #1" = 10
+	"Gunadevi #0" = -1
+	"Kalhanika #0" = -1
+	"Kuldip #0" = 0
+	"Narendraprabha #0" = -1
+	"Rohit #0" = 0
+	"Sankaravarman #0" = 0
+	"Shambhu #0" = 0
+	"Srilekha #0" = -1
+	"Utkarsa #0" = 0
+	"Vigraharaja #0" = 0
+}

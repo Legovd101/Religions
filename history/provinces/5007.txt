@@ -1,0 +1,13 @@
+add_core = GUE
+discovered_by = muslim
+discovered_by = western
+discovered_by = ottoman
+owner = GUE
+culture = guernesiais
+religion = catholic
+controller = GUE
+is_city = no
+discovered_by = east_african
+base_tax = 2
+base_manpower = 3
+base_production = 4

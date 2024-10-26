@@ -1,0 +1,15 @@
+owner = MLC
+controller = MLC
+capital = "Singapura"
+is_city = yes
+religion = sunni
+trade_goods = fish
+base_tax = 1
+base_production = 4
+base_manpower = 2
+add_core = JOH
+add_core = MLC
+discovered_by = chinese
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman

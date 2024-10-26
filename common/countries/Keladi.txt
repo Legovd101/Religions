@@ -1,0 +1,55 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 156 129 33 }
+revolutionary_colors = { 8 5 8 }
+historical_idea_groups = { 
+	trade_ideas
+	quantity_ideas
+	economic_ideas
+	offensive_ideas
+	defensive_ideas
+	spy_ideas
+	diplomatic_ideas
+	aristocracy_ideas
+}
+historical_units = { 
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_cavalry
+	maharathan_guerilla_warfare
+	rajput_hill_fighters
+	reformed_mughal_musketeer
+	sikh_rifle
+	south_indian_musketeer
+	tipu_sultan_rocket
+}
+monarch_names = { 
+	"Akkadevi #0" = -1
+	"Amoghavarsha #0" = 0
+	"Bankesha #1" = 10
+	"Bhavanaga #0" = -1
+	"Gangambika #0" = -1
+	"Krishna #0" = 0
+	"Madhava #0" = 0
+	"Mahadevi #0" = -1
+	"Mailaladevi #0" = -1
+	"Mallikarjuna #0" = 0
+	"Marama #1" = 10
+	"Nripakama #0" = 0
+	"Revakanimmadi #0" = -1
+	"Sattiyavvai #0" = -1
+	"Sriranga #0" = 0
+	"Venkatapathi #0" = 0
+}
+leader_names = { 
+	"Basavaraju" "Chandrashekar" "Devaraja" "Devi" "Noorondayya" "Rajbal" "Vaidya" "Varma" "Vilasa" "Visvesvaraya"
+	"Waidyar" "Yaduraya" 
+}
+ship_names = { 
+	"Amirtha" "Amman" "Arul" "Bhima" "Chellam" "Devi" "Durga" "Gayatri" "Iniya" "Krishna"
+	"Lakshmi" "Madhu" "Meenakshi" "Nalini" "Pallar" "Parvati" "Payaswani" "Pennar" "Ponni" "Radha"
+	"Ratri" "Sarasvati" "Sita" "Tamarai" 
+}

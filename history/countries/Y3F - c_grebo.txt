@@ -1,0 +1,43 @@
+government = tribal
+add_government_reform = tribal_despotism
+government_rank = 1
+technology_group = sub_saharan
+religion = waldensian
+primary_culture = dyola
+capital = 1119
+fixed_capital = 1119
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Lami"
+		dynasty = "Kren"
+		adm = 4
+		dip = 2
+		mil = 2
+		birth_date = 1425.1.1
+		religion = waldensian
+		culture = dyola
+	}
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = zealot_personality
+	heir = {
+		name = "Nowa"
+		monarch_name = "Nowa"
+		dynasty = "al-Harrani"
+		adm = 4
+		dip = 6
+		mil = 6
+		birth_date = 1416.11.4
+		death_date = 1481.11.4
+		female = yes
+		claim = 89
+		religion = waldensian
+		culture = dyola
+	}
+	add_heir_personality = righteous_personality
+	add_heir_personality = zealot_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 38
+}

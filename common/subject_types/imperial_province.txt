@@ -1,0 +1,58 @@
+imperial_province = {
+	copy_from = client_march
+
+	sprite = GFX_icon_march
+	diplomacy_overlord_sprite = GFX_diplomacy_leadclients # The one that the overlord sees
+	diplomacy_subject_sprite = GFX_diplomacy_areclients	# The one that the subject sees
+	
+	is_potential_overlord = { tag = PLD }
+	
+	can_fight_independence_war = yes
+	can_have_subjects_of_other_types = yes
+	can_be_annexed = no
+	takes_diplo_slot = no
+	has_power_projection = yes
+	can_release_in_peace = yes
+	overlord_protects_external = yes						# Whether overlord always gets called (declinable) against countries without the same overlord. When this is 'no' overlord will only join if the defender would have been blocked (by its subject type) from attacking the attacker.
+	can_use_claims = yes								# Whether the overlord can use the subject's claims and cores for declaring war
+	separatists_become_subjects = yes					# Whether separatist rebels enforcing demands will become subjects of the overlord.
+	can_transfer_in_peace = no							# Whether this subject type can be made into a vassal with the "Transfer Subject" Age Ability.
+	can_send_missionary_to_subject = yes				# Requires Cradle of Civilization
+	overlord_can_fabricate_for = yes
+	
+	max_government_rank = 2								# 0 means no limit
+	cities_required_for_bonuses = 10						# How many cities the subject needs before giving bonuses to overlord
+	trust_on_start = 35									# Overlord and subject will each get this much extra trust with each other at game start
+
+	base_liberty_desire = 10.0
+	liberty_desire_negative_prestige = 30.0
+	liberty_desire_development_ratio = 0.15
+	liberty_desire_same_dynasty = 0.0
+	liberty_desire_revolution = 80.0					# Liberty desire at 100% revolution spread in country
+	pays_overlord = 3.0									# 1.0 represents the amount payed by vassals
+	forcelimit_to_overlord = 1.0						# Percent of subject FL to use as base for modifiers
+	military_focus = 3.0								# How much the AI subject should spend etc. on army and forts. 0 should make them spend nothing. Very high values will probably not make a big difference since there will be sanity checks.
+
+	relative_power_class = 1 							# 0 - relative power not taken into account, 1 - this subject's only, x - all subjects with x
+	diplomacy_view_class = 1							# See description in file
+
+	can_fight = {
+		independent_nations = yes
+		other_overlord = all
+	}
+	can_ally = {
+		republic = yes
+	}
+	can_marry = {
+		independent_nations = yes
+	}
+
+	# Subject Interactions:
+	# (continuous)
+	fortify_march = yes
+	subsidize_armies = yes
+
+	# Modifiers:
+	overlord_opinion_modifier = is_vassal
+	subject_opinion_modifier = is_vassal
+}

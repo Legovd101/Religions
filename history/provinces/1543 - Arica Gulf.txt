@@ -1,0 +1,5 @@
+discovered_by = andean
+discovered_by = south_american
+base_tax = 3
+base_manpower = 1
+base_production = 4

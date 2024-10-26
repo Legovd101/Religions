@@ -1,0 +1,45 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 84 242 223 }
+revolutionary_colors = { 8 0 5 }
+historical_idea_groups = { 
+	maritime_ideas
+	defensive_ideas
+	religious_ideas
+	expansion_ideas
+	administrative_ideas
+	offensive_ideas
+	trade_ideas
+	economic_ideas
+}
+historical_units = { 
+	ali_bey_reformed_infantry
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_dragoon
+	muslim_mass_infantry
+}
+monarch_names = { 
+	"Agafay #0" = 0
+	"Ali #1" = 10
+	"Bajila #0" = -1
+	"Daisha #0" = -1
+	"Himmi #0" = 0
+	"Idris #0" = 0
+	"Kemaladdin #0" = 0
+	"Massa #0" = -1
+	"Mina #0" = 0
+	"Nasir #0" = 0
+	"Tinzert #0" = -1
+	"Titbirt #0" = -1
+}
+leader_names = { 
+	"Alami" "Arazi" "Barek" "Behar" "Berui" "Haida" "Lahsini" "Sahiri" "Sellami" "Skah"
+}
+ship_names = { 
+	"Afuww" "Badi" "Baqi" "Darr" "Fa'uf" "Fazl Azim" "Ghani" "Hadi" "Jalal Ikram" "Jami"
+	"Malik Mulk" "Mani" "Mughni" "Muntaqim" "Muqsit" "Nafi" "Nur" "Rashid" "Sabur" "Tawwab"
+	"Warith" 
+}

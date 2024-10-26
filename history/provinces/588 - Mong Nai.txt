@@ -1,0 +1,13 @@
+owner = MNI
+controller = MNI
+capital = "Mong Nai"
+is_city = yes
+culture = shan
+religion = buddhism
+trade_goods = cotton
+base_tax = 3
+base_production = 1
+base_manpower = 6
+add_core = MNI
+discovered_by = chinese
+discovered_by = indian

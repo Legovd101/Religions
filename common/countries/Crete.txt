@@ -1,0 +1,78 @@
+ck2_converter_generated = yes
+graphical_culture = muslimgfx
+color = { 138 110 130 }
+revolutionary_colors = { 15 0 15 }
+historical_idea_groups = {
+	religious_ideas
+	defensive_ideas
+	spy_ideas
+	trade_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = {
+	eastern_carabinier
+	eastern_knights
+	eastern_medieval_infantry
+	eastern_militia
+	eastern_skirmisher
+	eastern_uhlan
+	ottoman_lancer
+	ottoman_new_model
+	ottoman_nizami_cedid
+	ottoman_reformed_janissary
+	ottoman_reformed_spahi
+	ottoman_sekban
+	ottoman_spahi
+	ottoman_toprakli_dragoon
+	ottoman_toprakli_hit_and_run
+	slavic_stradioti
+}
+monarch_names = {
+	"Abdallah #0" = 0
+	"Affan #0" = 0
+	"Ahmad #0" = 0
+	"Amr #0" = 0
+	"Amrus #0" = 0
+	"Jalaf #0" = 0
+	"Muhammad #0" = 0
+	"Mutarrif #0" = 0
+	"Neila #0" = -1
+	"Rashid #0" = 0
+	"Shu'ayb #1" = 10
+	"Umar #0" = 0
+	"Yunus #0" = 0
+	"Yusr #0" = 0
+	"Yusuf #0" = 0
+	"Zahida #0" = -1
+	"Zurar #0" = 0
+}
+leader_names = {
+	"Argyrus"
+	"Artavasdus"
+	"Basileus"
+	"Diogenes"
+	"Ducas"
+	"Monomachus"
+	"Morosini"
+	"Romanus"
+	"Stauracius"
+	"Stratioticus"
+	"Vataces"
+	"Zimisces"
+	"de Vendôme"
+}
+ship_names = {
+	"Dermoaros"
+	"Frangokastelo"
+	"Glalos"
+	"Koudouras"
+	"Lentas"
+	"Matala"
+	"Paleochora"
+	"Papadogiannis"
+	"Plakias"
+	"Sougia"
+}

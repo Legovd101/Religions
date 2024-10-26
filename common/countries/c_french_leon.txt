@@ -1,0 +1,22 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 69 97 97 }
+monarch_names = { 
+	"Brangualart #0" = 0
+	"Dís #0" = -1
+	"Fastulfr #0" = 0
+	"Gratcant #0" = 0
+	"Gregor #0" = 0
+	"Guencor #0" = -1
+	"Guihomarch #1" = 10
+	"Guoethoiarn #0" = 0
+	"Hólmr #0" = 0
+	"Iehan #0" = 0
+	"Ignoguen #0" = -1
+	"Iocilin #0" = 0
+	"Isabelle #0" = -1
+	"Iudlouguen #0" = -1
+	"Olafr #1" = 10
+	"Resmen #0" = 0
+	"Rioc #0" = 0
+}

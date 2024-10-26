@@ -1,0 +1,4 @@
+discovered_by = chinese
+base_tax = 5
+base_manpower = 3
+base_production = 4

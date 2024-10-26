@@ -1,0 +1,12 @@
+owner = KZB
+controller = KZB
+capital = "Tabwa"
+is_city = yes
+culture = luba
+religion = shamanism
+trade_goods = copper
+base_tax = 4
+base_production = 3
+base_manpower = 6
+add_core = KZB
+discovered_by = central_african

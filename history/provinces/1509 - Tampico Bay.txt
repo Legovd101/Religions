@@ -1,0 +1,4 @@
+discovered_by = mesoamerican
+base_tax = 5
+base_manpower = 6
+base_production = 4

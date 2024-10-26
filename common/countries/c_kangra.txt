@@ -1,0 +1,19 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 140 120 41 }
+monarch_names = {
+	"Abhay Chandra #1" = 10
+	"Bag #0" = 0
+	"Bhuvana #0" = 0
+	"Falak #0" = -1
+	"Geetika #0" = -1
+	"Kehari Chandra #0" = 0
+	"Lavi #0" = -1
+	"Narapati #0" = 0
+	"Rup Chandra #0" = 0
+	"Simharaja #0" = 0
+	"Surgandha #0" = -1
+	"Udayaraja #0" = 0
+	"Utara #0" = -1
+	"Venya #0" = -1
+}

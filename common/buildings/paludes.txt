@@ -1,0 +1,91 @@
+villa = {
+    cost = 250                # Cost of the building in ducats
+    time = 30             # Time (in months) that it takes to construct the building
+	indestructible = yes
+
+	build_trigger = {
+		NOT = { # No other province owned by the owner in this state has an existing villa
+			area_for_scope_province = {
+				owner = {
+					tag = ROOT
+				}
+				OR = {
+					has_building = villa
+					has_construction = villa
+				}
+			}
+		}
+		owner = { mission_completed = restoration_of_the_coloniae }
+	}
+	
+	keep_trigger = {
+		NOT = { # Same as previous, just checks for when a province is conquered if one keeps it or not
+			area_for_scope_province = {
+				NOT = { province_id = root }
+				owner = {
+					tag = ROOT
+				}
+				OR = {
+					has_building = villa
+					has_construction = villa
+				}
+			}
+		}
+		culture_group = roman_group
+	}
+
+	modifier = {
+		statewide_governing_cost = -0.2
+		min_local_autonomy = 10
+		local_governing_cost = -0.2
+		local_governing_cost_increase = -10
+		allowed_num_of_buildings = 1
+	}
+	onmap = no
+	on_built = {
+		hidden_effect = { # Saves the current culture and religion, and saves them in the event that the villa should be destroyed
+			export_to_variable = {
+				which = pre_roman_culture
+				value = culture
+			}
+			export_to_variable = {
+				which = pre_roman_religion
+				value = religion
+			}
+		}
+		add_development_from_building = {
+			building = villa
+			type = manpower
+			value = 2
+		}
+		add_development_from_building = {
+			building = villa
+			type = production
+			value = 2
+		}
+		change_culture = ROOT # Converts the province to your culture and religion
+		change_religion = ROOT
+	}
+	on_destroyed = {
+		remove_development_from_building = {
+			building = villa
+			type = manpower
+			value = 2
+		}
+		remove_development_from_building = {
+			building = villa
+			type = production
+			value = 2
+		}
+		hidden_effect = { # Returns the culture and religion to their former values
+			change_culture = variable:pre_roman_culture
+			change_religion = variable:pre_roman_religion
+		}		
+	}
+	on_obsolete = {
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}

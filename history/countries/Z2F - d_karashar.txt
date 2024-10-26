@@ -1,0 +1,43 @@
+government = monarchy
+add_government_reform = english_monarchy
+government_rank = 1
+technology_group = nomad_group
+religion = kushitism_pagan
+primary_culture = sogdian
+capital = 4207
+add_accepted_culture = tocharian
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Sagharak"
+		dynasty = "Agni"
+		adm = 6
+		dip = 2
+		mil = 6
+		birth_date = 1397.1.1
+		religion = kushitism_pagan
+		culture = sogdian
+	}
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = secretive_personality
+	heir = {
+		name = "Yena"
+		monarch_name = "Yena"
+		dynasty = "Agni"
+		adm = 3
+		dip = 2
+		mil = 1
+		birth_date = 1417.1.1
+		death_date = 1482.1.1
+		female = yes
+		claim = 89
+		religion = kushitism_pagan
+		culture = sogdian
+	}
+	add_heir_personality = midas_touched_personality
+	add_heir_personality = secretive_personality
+}
+1444.11.11= {
+	add_prestige = 47
+	add_treasury = 51
+}

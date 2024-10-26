@@ -1,0 +1,16 @@
+owner = PEN
+controller = PEN
+capital = "Abnaki"
+is_city = yes
+culture = abenaki
+religion = totemism
+trade_goods = naval_supplies
+base_tax = 5
+base_production = 4
+base_manpower = 4
+add_core = PEN
+discovered_by = north_american
+native_size = 15
+native_ferocity = 3
+native_hostileness = 8
+discovered_by = TEM

@@ -1,0 +1,9 @@
+discovered_by = ANU
+discovered_by = CHU
+discovered_by = CHV
+discovered_by = HOD
+discovered_by = KMC
+discovered_by = MYR
+base_tax = 3
+base_manpower = 3
+base_production = 2

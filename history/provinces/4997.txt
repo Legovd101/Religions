@@ -1,0 +1,10 @@
+discovered_by = north_american
+culture = welsh
+is_city = no
+religion = druidism
+base_tax = 4
+base_manpower = 5
+base_production = 4
+add_core = APM
+owner = APM
+controller = APM

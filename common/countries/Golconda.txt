@@ -1,0 +1,51 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 183 176 94 }
+revolutionary_colors = { 14 1 14 }
+historical_idea_groups = { 
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	economic_ideas
+	quantity_ideas
+	offensive_ideas
+	diplomatic_ideas
+	spy_ideas
+}
+historical_units = { 
+	bhonsle_infantry
+	indian_arquebusier
+	indian_elephant
+	indian_footsoldier
+	indian_shock_cavalry
+	maharathan_guerilla_warfare
+	mughal_mansabdar
+	mughal_musketeer
+	rajput_hill_fighters
+	rajput_musketeer
+	sikh_rifle
+	tipu_sultan_rocket
+}
+monarch_names = { 
+	"Anitalli #0" = -1
+	"Chennappa #0" = 0
+	"Ganapathinayaka #0" = 0
+	"Gonka #1" = 10
+	"Hariharamba #0" = -1
+	"Indradatta #0" = 0
+	"Jayappa #0" = 0
+	"Kaapayanayaka #0" = 0
+	"Katayavema #0" = 0
+	"Rudramadevi #0" = -1
+	"Somaditya #0" = 0
+	"Vengabhupathi #0" = 0
+}
+leader_names = { 
+	"Agrawal" "Ambar" "Bhaskar" "Chirag" "Dawar" "Hussaini" "Jitesh" "Kabir" "Kadak" "Khan"
+	"Khot" "Kumur" "Latif" "Mahaldar" "Mazandarani" "Nayudu" "Poosapati" "Qadir" "Qummi" "Safsikhan"
+	"Simnani" "Sistani" "Uzbek" "Vasireddy" "Velama" "Zamindari" 
+}
+ship_names = { 
+	"Alia" "Fatimah" "Godvari" "Jalsena" "Kala Jahazi" "Khan" "Lal Jahazi" "Mahanadi" "Nausena" "Nav ka Yudh"
+	"Niknaz" "Nila Jahazi" "Niloufa" "Sagar" "Salima" "Shameena" "Suhalia" "Yasmine" 
+}

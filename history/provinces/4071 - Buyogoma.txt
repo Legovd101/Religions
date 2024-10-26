@@ -1,0 +1,12 @@
+owner = UBH
+controller = UBH
+capital = "Buyogoma"
+is_city = yes
+culture = rwandan
+religion = shamanism
+trade_goods = grain
+base_tax = 5
+base_production = 3
+base_manpower = 5
+add_core = UBH
+discovered_by = central_african

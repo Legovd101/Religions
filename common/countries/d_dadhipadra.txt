@@ -1,0 +1,18 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 245 200 20 }
+monarch_names = {
+	"Ambra-Prasad #0" = 0
+	"Anuppal #0" = 0
+	"Kunwar #0" = 0
+	"Nagraja #0" = 0
+	"Padmini #0" = -1
+	"Rajamati #0" = -1
+	"Rudrani #0" = -1
+	"Siyaka #1" = 10
+	"Sundaridevi #0" = -1
+	"Tihunaka #0" = -1
+	"Udayamati #0" = -1
+	"Vakpati #0" = 0
+	"Viranarayana #0" = 0
+}

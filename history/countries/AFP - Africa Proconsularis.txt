@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = roman_empire_reform
+government_rank = 2
+technology_group = muslim
+religion = coptic
+capital = 341
+primary_culture = salinatorian
+1410.11.11= {
+	monarch = {
+		name = "Natanus"
+		dynasty = "Gregorius"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

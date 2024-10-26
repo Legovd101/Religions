@@ -1,0 +1,19 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 210 115 5 }
+monarch_names = {
+	"Bride #0" = -1
+	"Caitrion #0" = -1
+	"Canuall #0" = 0
+	"Cináed #0" = 0
+	"Drystan #1" = 10
+	"Elen #0" = -1
+	"Mairi #0" = -1
+	"Murethach #0" = 0
+	"Mòrag #0" = -1
+	"Niallán #0" = 0
+	"Rubert #0" = 0
+	"Sárán #0" = 0
+	"Uoret #0" = 0
+	"Uuid #0" = 0
+}

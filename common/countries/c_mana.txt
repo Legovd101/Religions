@@ -1,0 +1,20 @@
+ck2_converter_generated = yes
+graphical_culture = inuitgfx
+color = { 85 72 72 }
+monarch_names = {
+	"Alba #0" = 0
+	"Barsbeg #0" = 0
+	"Bukrek #0" = 0
+	"Esin #0" = -1
+	"Gulay #0" = -1
+	"Gzi #0" = 0
+	"Ipek #0" = -1
+	"Kuntuvdi #0" = 0
+	"Mulan #0" = 0
+	"Rinchin #1" = 10
+	"Sati #0" = -1
+	"Sibel #0" = -1
+	"Suddhipala #0" = 0
+	"Umay #0" = -1
+	"Çiltanesi #0" = -1
+}

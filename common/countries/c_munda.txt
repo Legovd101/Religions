@@ -1,0 +1,21 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 38 148 21 }
+monarch_names = { 
+	"Agnimitra #0" = 0
+	"Ahiavadevi #0" = -1
+	"Bhogavati #0" = -1
+	"Biswanatha #0" = 0
+	"Dharma #0" = -1
+	"Kalua #0" = 0
+	"Komta #1" = 10
+	"Pasna #0" = 0
+	"Pulindaka #0" = 0
+	"Pusyamitra #0" = 0
+	"Rajasundari #0" = -1
+	"Ratnavati #0" = -1
+	"Suvrata #0" = -1
+	"Vaaraharaja #0" = 0
+	"Vasumati #0" = -1
+	"Vijnayavati #0" = -1
+}

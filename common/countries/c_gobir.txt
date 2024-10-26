@@ -1,0 +1,21 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 233 107 3 }
+monarch_names = { 
+	"Agada #0" = -1
+	"Delu #0" = -1
+	"Duna #0" = -1
+	"Gaddo #0" = 0
+	"Garin Gabas #1" = 10
+	"Hana #0" = -1
+	"Jandodo #0" = 0
+	"Kabayo #0" = 0
+	"Kuluwa #0" = -1
+	"Ladi #0" = -1
+	"Mati #0" = 0
+	"Rago #0" = 0
+	"Saju #0" = -1
+	"Talatu #0" = -1
+	"Yakumo #0" = -1
+	"Yusa #0" = 0
+}

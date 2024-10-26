@@ -1,0 +1,14 @@
+culture = icelandic
+is_city = no
+add_core = AKL
+add_core = ICE
+owner = AKL
+religion = norse_pagan
+controller = AKL
+trade_goods = naval_supplies
+discovered_by = AKL
+discovered_by = eastern
+discovered_by = western
+base_tax = 4
+base_manpower = 4
+base_production = 2

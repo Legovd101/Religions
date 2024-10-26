@@ -1,0 +1,22 @@
+ck2_converter_generated = yes
+graphical_culture = westerngfx
+color = { 80 155 230 }
+monarch_names = { 
+	"Adja #0" = -1
+	"Aichata #0" = -1
+	"Barakissa #0" = -1
+	"Birama #0" = 0
+	"Djire #0" = -1
+	"Fadazaw #0" = -1
+	"Fädazu #0" = 0
+	"Kanafa #0" = 0
+	"Kolonkan #0" = -1
+	"Nana #0" = -1
+	"Nintasanay #0" = 0
+	"Saa #0" = 0
+	"Sakho #1" = 10
+	"Sané #0" = -1
+	"Tekhaye #0" = -1
+	"Tounkara #0" = 0
+	"Tunka-Menin #0" = 0
+}

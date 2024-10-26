@@ -1,0 +1,18 @@
+ck2_converter_generated = yes
+graphical_culture = indiangfx
+color = { 200 105 18 }
+monarch_names = { 
+	"Dameer #0" = 0
+	"Dilnaz #0" = -1
+	"Faeq #0" = 0
+	"Genhra #0" = 0
+	"Ghitbah #0" = -1
+	"Junah #0" = 0
+	"Khafif #1" = 10
+	"Sad #0" = -1
+	"Saimah #0" = -1
+	"Shah Nawaz #0" = 0
+	"Shamsher #0" = 0
+	"Sonu #0" = 0
+	"Šîwen #0" = -1
+}

@@ -1,0 +1,43 @@
+government = monarchy
+add_government_reform = english_monarchy
+government_rank = 1
+technology_group = muslim
+religion = norse_pagan
+primary_culture = persian
+capital = 4320
+fixed_capital = 4320
+add_accepted_culture = coptic
+set_country_flag = ZZZ_generated_converter_nation
+1444.11.11= {
+	monarch = {
+		name = "Abdul-Hasan"
+		dynasty = "al-Mudabbir"
+		adm = 2
+		dip = 1
+		mil = 3
+		birth_date = 1413.3.6
+		religion = norse_pagan
+		culture = persian
+	}
+	add_ruler_personality = strict_personality
+	add_ruler_personality = tactical_genius_personality
+	heir = {
+		name = "Abu Ishaq"
+		monarch_name = "Abu Ishaq"
+		dynasty = "al-Mudabbir"
+		adm = 6
+		dip = 2
+		mil = 6
+		birth_date = 1416.9.9
+		death_date = 1481.9.9
+		claim = 89
+		religion = buddhism
+		culture = persian
+	}
+	add_heir_personality = intricate_web_weaver_personality
+	add_heir_personality = midas_touched_personality
+}
+1444.11.11= {
+	add_prestige = 49
+	add_treasury = 54
+}

@@ -1,0 +1,22 @@
+ck2_converter_generated = yes
+graphical_culture = africangfx
+color = { 198 55 85 }
+monarch_names = { 
+	"Bania #0" = 0
+	"Bilqis #0" = -1
+	"Bisi #0" = 0
+	"Boumi #0" = 0
+	"Chindi #0" = -1
+	"Daara #0" = -1
+	"Dangey #0" = -1
+	"Huseina #0" = -1
+	"Koi #0" = 0
+	"Layla #0" = -1
+	"Mecca #0" = -1
+	"Morobani #0" = 0
+	"Ouankoy #1" = 10
+	"Sanay #0" = 0
+	"Tib #0" = 0
+	"Zakoi #0" = 0
+	"Zaynab #0" = -1
+}

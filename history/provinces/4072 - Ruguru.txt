@@ -1,0 +1,12 @@
+owner = UBH
+controller = UBH
+capital = "Ruguru"
+is_city = yes
+culture = rwandan
+religion = shamanism
+trade_goods = salt
+base_tax = 4
+base_production = 3
+base_manpower = 4
+add_core = UBH
+discovered_by = central_african

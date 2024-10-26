@@ -1,0 +1,5 @@
+discovered_by = JOL
+discovered_by = MAL
+base_tax = 2
+base_manpower = 2
+base_production = 6

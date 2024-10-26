@@ -1,0 +1,12 @@
+owner = VNL
+controller = VNL
+capital = "Labasa"
+is_city = yes
+culture = melanesian
+religion = animism
+trade_goods = fish
+base_tax = 6
+base_production = 4
+base_manpower = 4
+add_core = VNL
+discovered_by = polynesian_tech

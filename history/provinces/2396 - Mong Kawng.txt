@@ -1,0 +1,13 @@
+owner = MKA
+controller = MKA
+capital = "Mong Kawng"
+is_city = yes
+culture = kachin
+religion = buddhism
+trade_goods = gems
+base_tax = 3
+base_production = 4
+base_manpower = 1
+add_core = MKA
+discovered_by = chinese
+discovered_by = indian

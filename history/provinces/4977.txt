@@ -1,0 +1,9 @@
+discovered_by = north_american
+is_city = no
+discovered_by = FRT
+discovered_by = MND
+culture = innu
+religion = totemism
+base_tax = 5
+base_manpower = 3
+base_production = 3

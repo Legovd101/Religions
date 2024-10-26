@@ -1,0 +1,15 @@
+owner = ATW
+controller = ATW
+capital = "Niagara"
+is_city = yes
+culture = tionontate
+religion = insular_celtic
+trade_goods = fur
+base_tax = 1
+base_production = 5
+base_manpower = 1
+add_core = ATW
+discovered_by = north_american
+native_size = 10
+native_ferocity = 5
+native_hostileness = 1

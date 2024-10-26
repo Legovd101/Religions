@@ -1,0 +1,13 @@
+owner = PCJ
+controller = PCJ
+capital = "Chichas"
+is_city = yes
+culture = aimara
+religion = inti
+trade_goods = salt
+base_tax = 4
+base_production = 5
+base_manpower = 3
+add_core = PCJ
+discovered_by = andean
+discovered_by = south_american
